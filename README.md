@@ -1,5 +1,3 @@
-# 💫 About Me:
-
 👋 Hi, I'm Manish Keer!<br>🚀 Full-Stack & Android Developer | MERN | Spring Boot | React Native<br><br>I’m a passionate developer with experience in building real-time applications, cross-platform mobile apps, and backend systems. My expertise includes:<br><br>🔹 Backend: Spring Boot, Node.js, JWT Authentication, MongoDB<br>🔹 Frontend: React, React Native (CLI), Electron.js<br>🔹 Mobile Development: Android (Native & React Native)<br>🔥 Projects & Achievements<br>🛠 Built ChatApplication – A real-time messenger app with JWT authentication, Google/GitHub login & media sharing.<br>💻 Developed a desktop chat app using Electron.js with multi-platform support.<br>📱 Created InstaClone – A social media app built with React Native CLI for sharing posts, likes, and comments.<br>🎓 Developed StudyNotion – An EdTech platform for online learning with course management and authentication.
 
 ## 🌐 Socials:
