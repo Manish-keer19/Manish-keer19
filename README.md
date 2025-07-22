@@ -103,7 +103,10 @@ Welcome to my GitHub profile! I'm a passionate developer specializing in full-st
 
 
 ![Android Chat Interface](./screenshots/android-chat-interface.jpg)
-*Native chat interface Home Page*
+*Native chat interface Home Page* 
+
+
+
 
 ![Android Chat List](./screenshots/android-chat-list.jpg)
 *Chat list with unread message indicators*
