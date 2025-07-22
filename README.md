@@ -1,22 +1,6 @@
-<div align="center">
-  <div style="
-    width: clamp(120px, 25vw, 200px);
-    height: clamp(120px, 25vw, 200px);
-    border-radius: 50%;
-    overflow: hidden;
-    border: 3px solid #6e5494;
-  ">
-    <img 
-      src="./screenshots/ms.jpg" 
-      style="
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      "
-      alt="Manish Keer"
-    />
-  </div>
-</div>
+<p align="center">
+  <img src="./screenshots/msp.png" width="150" alt="Manish Keer" />
+</p>
 
 # Hi there, I'm Manish Keer 👋
 
