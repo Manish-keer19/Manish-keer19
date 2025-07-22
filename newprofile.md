@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/ms.jpg" width="200" height="200" style="border-radius:50%; border:5px solid #6e5494; margin-top:-50px; box-shadow:0 10px 30px rgba(0,0,0,0.2);" alt="Manish Keer" />
+  <img src="./screenshots/ms.jpg" width="200" height="200" style="border-radius:50%; border:5px solid #6e5494; margin-top:-50px; box-shadow:0 10px 30px rgba(0,0,0,0.2);" alt="Manish Keer" />
 </div>
 
 <h1 align="center">Hi there 👋, I'm Manish Keer</h1>
@@ -105,10 +105,10 @@ A real-time betting platform with instant game results and wallet management sys
 </td>
 <td width="50%">
   
-![Betting App Screenshot](https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/betting-game.png)
+![Betting App Screenshot](./screenshots/betting-game.png)
 *Home page interface*
 
-![Wallet System](https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/wallet-system.png)
+![Wallet System](./screenshots/wallet-system.png)
 *Wallet management*
 
 </td>
@@ -148,10 +148,10 @@ Full-featured real-time messaging platform with OAuth integration.
 </td>
 <td width="50%">
   
-![Chat Login](https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/chat-login.png)
+![Chat Login](./screenshots/chat-login.png)
 *Login screen*
 
-![Chat Dashboard](https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/chat-dashboard.png)
+![Chat Dashboard](./screenshots/chat-dashboard.png)
 *Chat interface*
 
 </td>
@@ -191,10 +191,10 @@ Native Android messaging app with push notifications.
 </td>
 <td width="50%">
   
-![Android Chat](https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/android-chat-interface.jpg)
+![Android Chat](./screenshots/android-chat-interface.jpg)
 *Home screen*
 
-![Chat List](https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/android-chat-list.jpg)
+![Chat List](./screenshots/android-chat-list.jpg)
 *Chat list*
 
 </td>
