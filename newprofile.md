@@ -1,299 +1,254 @@
-# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" /> Hey there! I'm Manish Keer
-
 <div align="center">
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&width=435&lines=Full+Stack+%26+Android+Developer;Real-Time+App+Specialist;MERN+Stack+Enthusiast;Building+Scalable+Solutions)](https://git.io/typing-svg)
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Manish%20Keer&fontSize=60&fontAlignY=35&animation=fadeIn" />
 </div>
 
-<img align="right" alt="Coding" width="400" src="./screenshots/ms.jpg">
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/ms.jpg" width="200" height="200" style="border-radius:50%; border:5px solid #6e5494; margin-top:-50px; box-shadow:0 10px 30px rgba(0,0,0,0.2);" alt="Manish Keer" />
+</div>
 
-
-### 🚀 About Me
-
-```javascript
-const manish = {
-    pronouns: "He/Him",
-    location: "India 🇮🇳",
-    code: ["JavaScript", "Java", "Python", "Dart"],
-    askMeAbout: ["Web Dev", "Mobile Dev", "Real-time Apps", "System Design"],
-    technologies: {
-        frontEnd: {
-            js: ["React", "React Native", "Electron.js"],
-            css: ["Tailwind CSS", "Material UI", "Styled Components"]
-        },
-        backEnd: {
-            js: ["Node.js", "Express.js"],
-            java: ["Spring Boot", "Spring Security"],
-            databases: ["MongoDB", "Firebase", "PostgreSQL"],
-            realTime: ["Socket.io", "WebSocket", "Server-Sent Events"]
-        },
-        devOps: ["Docker", "GitHub Actions", "AWS", "Vercel"],
-        mobile: ["React Native CLI", "Android Studio", "Flutter"]
-    },
-    currentFocus: "Building scalable real-time applications",
-    funFact: "I debug with console.log() and I'm proud of it! 😄"
-};
-```
-
-<br clear="both">
+<h1 align="center">Hi there 👋, I'm Manish Keer</h1>
+<h3 align="center">🚀 Full Stack & Android Developer | Building Digital Experiences</h3>
 
 ---
+## 🛠️ Tech Stack & Tools
 
-## ⚡ Tech Stack
-
-<div align="center">
-
-### Frontend Development
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Electron.js](https://img.shields.io/badge/Electron.js-47848F?style=for-the-badge&logo=electron&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+### 🎨 Frontend Development
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-
-### Backend Development
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-
-### Database & Real-Time
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
 
 </div>
 
----
+### ⚙️ Backend Development
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
 
-## 🏗️ Featured Projects
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
 
-<div align="center">
+</div>
+
+### 🗃️ Databases
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+</div>
+
+### ☁️ Cloud & DevOps
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
+</div>
+
+### 📱 Mobile Development
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+
+</div>
+
+### 🛠️ Tools
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+
+</div>
+
+## 🌟 Featured Projects
 
 ### 🎲 ManishBetting App
-*Real-time Gaming Platform*
+<table>
+<tr>
+<td width="50%">
+  
+#### 📌 Project Overview
+A real-time betting platform with instant game results and wallet management system.
 
-<img src="./screenshots/betting-game.png" alt="Betting Game Interface" width="500"/>
-*Home page interface Of Betting App*
+#### 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Real-time:** WebSocket, Socket.io
 
-<img src="./screenshots/wallet-system.png" alt="Wallet System" width="500"/>
-*User wallet with transaction history*
+#### ✨ Key Features
+- Real-time betting interface
+- Secure wallet system
+- 30-second quick games
+- Live leaderboards
 
-🔹 **Real-time betting & 30 Seconds games**  
-🔹 **Secure wallet system with transaction history**  
-🔹 **Live betting with WebSocket technology**  
-🔹 **Live results & leaderboards**  
-🔹 **Secure payment processing**  
+</td>
+<td width="50%">
+  
+![Betting App Screenshot](https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/betting-game.png)
+*Home page interface*
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=websocket&logoColor=white)
+![Wallet System](https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/wallet-system.png)
+*Wallet management*
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=netlify)](https://manish-bet-app.vercel.app)
-[![GitHub](https://img.shields.io/badge/View-Code-black?style=for-the-badge&logo=github)](https://github.com/Manish-keer19/Betting_App_Frontend)
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+  
+[![Live Demo](https://img.shields.io/badge/Live_Demo-6e5494?style=for-the-badge&logo=vercel&logoColor=white)](https://manish-bet-app.vercel.app)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manish-keer19/Betting_App_Frontend)
 
----
-
-### 📱 InstaClone
-*Social Media Mobile Application*
-
-<img src="./screenshots/insta-feed.jpg" alt="InstaClone Feed" width="300"/>
-*Social media feed with posts and interactions*
-
-<img src="./screenshots/insta-profile.jpg" alt="InstaClone Profile" width="300"/>
-*User profile screen with posts grid*
-
-🔹 **Photo sharing & stories functionality**  
-🔹 **Real-time feed & social interactions**  
-🔹 **Native mobile experience**  
-🔹 **Camera integration & user profiles**  
-
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
-[![GitHub](https://img.shields.io/badge/View-Code-black?style=for-the-badge&logo=github)](https://github.com/Manish-keer19/Full_Stack-InstaClone-apk)
+</td>
+</tr>
+</table>
 
 ---
 
 ### 💬 ChatWebApplication
-*Real-time Messaging Platform*
+<table>
+<tr>
+<td width="50%">
+  
+#### 📌 Project Overview
+Full-featured real-time messaging platform with OAuth integration.
 
-<img src="./screenshots/chat-login.png" alt="Chat Login Screen" width="500"/>
-*Login screen with OAuth integration*
+#### 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** JWT, OAuth
 
-<img src="./screenshots/chat-dashboard.png" alt="Chat Dashboard" width="500"/>
-*Main chat interface with real-time messaging*
+#### ✨ Key Features
+- Real-time messaging
+- Google/GitHub login
+- Media sharing
+- Responsive design
 
-🔹 **Real-time messaging with Socket.io**  
-🔹 **JWT Authentication & OAuth (Google/GitHub)**  
-🔹 **Media sharing & group chats**  
-🔹 **Real-time notifications & responsive design**  
+</td>
+<td width="50%">
+  
+![Chat Login](https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/chat-login.png)
+*Login screen*
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![Chat Dashboard](https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/chat-dashboard.png)
+*Chat interface*
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=netlify)](https://manishchatapp.vercel.app)
-[![GitHub](https://img.shields.io/badge/View-Code-black?style=for-the-badge&logo=github)](https://github.com/Manish-keer19/chat-web-app)
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+  
+[![Live Demo](https://img.shields.io/badge/Live_Demo-6e5494?style=for-the-badge&logo=vercel&logoColor=white)](https://manishchatapp.vercel.app)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manish-keer19/chat-web-app)
+
+</td>
+</tr>
+</table>
 
 ---
 
 ### 📱 Android Chat App
-*Native Mobile Messaging Application*
+<table>
+<tr>
+<td width="50%">
+  
+#### 📌 Project Overview
+Native Android messaging app with push notifications.
 
-<img src="./screenshots/android-chat-interface.jpg" alt="Android Chat Interface" width="300"/>
-*Native chat interface Home Page*
+#### 🛠️ Tech Stack
+- **Mobile:** React Native CLI
+- **Backend:** Spring Boot
+- **Database:** MongoDB
+- **Real-time:** WebSocket
 
-<img src="./screenshots/android-chat-list.jpg" alt="Android Chat List" width="300"/>
-*Chat list with unread message indicators*
+#### ✨ Key Features
+- OAuth login
+- Push notifications
+- Dark/light mode
+- Offline sync
 
-<img src="./screenshots/One_to_one_chat.jpg" alt="One To One Chat" width="300"/>
-*One-to-one user chat page with real-time messages and media sharing*
+</td>
+<td width="50%">
+  
+![Android Chat](https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/android-chat-interface.jpg)
+*Home screen*
 
-🔹 **Native Android performance**  
-🔹 **Real-time messaging & OAuth login**  
-🔹 **Media sharing & push notifications**  
-🔹 **User presence & offline sync**  
-🔹 **Dark/light mode & material design UI**  
+![Chat List](https://raw.githubusercontent.com/Manish-keer19/Manish-keer19/main/screenshots/android-chat-list.jpg)
+*Chat list*
 
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=websocket&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+  
+[![APK Download](https://img.shields.io/badge/APK_Download-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.mediafire.com/file/7acyxs5grs88v25/ManishChatApp.apk/file)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manish-keer19/chatAndroidApp)
 
-[![APK Download](https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=android)](https://www.mediafire.com/file/7acyxs5grs88v25/ManishChatApp.apk/file)
-[![GitHub](https://img.shields.io/badge/View-Code-black?style=for-the-badge&logo=github)](https://github.com/Manish-keer19/chatAndroidApp)
-
----
-
-### 🖥️ Desktop Chat App
-*Cross-platform Desktop Application*
-
-<img src="./screenshots/desktop-chat.png" alt="Desktop App Interface" width="500"/>
-*Desktop chat application interface*
-
-🔹 **Native desktop experience**  
-🔹 **Cross-platform compatibility (Windows, macOS, Linux)**  
-🔹 **Built with Electron.js**  
-🔹 **System notifications & seamless integration**  
-
-![Electron](https://img.shields.io/badge/Electron.js-47848F?style=flat-square&logo=electron&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-
-[![Download](https://img.shields.io/badge/Download-App-blue?style=for-the-badge&logo=electron)](https://github.com/Manish-keer19/chat-web-app/blob/main/README.md)
-[![GitHub](https://img.shields.io/badge/View-Code-black?style=for-the-badge&logo=github)](https://github.com/Manish-keer19/chat-web-app)
-
-</div>
+</td>
+</tr>
+</table>
 
 ---
 
 ## 📊 GitHub Analytics
 
 <div align="center">
+  
+| <img src="https://github-readme-stats.vercel.app/api?username=Manish-keer19&show_icons=true&theme=radical&hide_border=true" alt="Stats" /> | <img src="https://github-readme-streak-stats.herokuapp.com/?user=Manish-keer19&theme=radical&hide_border=true" alt="Streak" /> |
+| ------------- | ------------- |
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=manishkeer&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="manishkeer" />
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=manishkeer&theme=tokyonight&hide_border=true" alt="manishkeer" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manishkeer&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="manishkeer" />
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=manishkeer&theme=tokyonight" alt="manishkeer" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Manish-keer19&theme=react-dark&hide_border=true&area=true" width="100%" alt="Activity Graph" />
 
 </div>
 
 ---
 
-## 🏆 GitHub Achievements
+## 🌐 Connect With Me
 
 <div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=manishkeer&theme=tokyonight&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-[![Manish's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=manishkeer&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-## 💭 Dev Quote
-
-<div align="center">
-
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
-
-</div>
-
----
-
-## 🌟 What I'm Up To
-
-```yaml
-current_work: "Building scalable real-time applications"
-learning: "Microservices Architecture & System Design"
-collaborating: "Open source projects in React ecosystem"
-ask_me_about: "Web Development, Mobile Apps, Real-time Systems"
-fun_fact: "I can debug code faster than I can explain the bug! 🐛"
-```
-
----
-
-## 🤝 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manish-keer)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/manishkeer)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/manishkeer)
-[![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://manishkeer.dev)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manishkeer@example.com)
+  
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://manish-portfolio19.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manish-keer19/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/manishkeer_19)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/manish_keer19/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manishkeer19@gmail.com)
 
 </div>
 
 ---
 
 <div align="center">
+  
+### ❤️ Visitors Count
+![Visitor Count](https://profile-counter.glitch.me/Manish-keer19/count.svg)
 
-### 🎯 Profile Stats
+### ⭐ If you like my work, don't forget to star my repos!
+  
+[![GitHub stars](https://img.shields.io/github/stars/Manish-keer19?label=Profile%20Stars&style=social)](https://github.com/Manish-keer19)
 
-![Profile Views](https://komarev.com/ghpvc/?username=manishkeer&label=Profile%20Views&color=blueviolet&style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/manishkeer?label=Followers&style=for-the-badge&color=blue)
-![Stars](https://img.shields.io/github/stars/manishkeer?label=Stars&style=for-the-badge&color=yellow)
+</div>
 
-### ⭐ Show some love by starring my repositories!
-
-**💼 Open for interesting project collaborations**  
-**📧 Feel free to reach out for freelance opportunities**
-
----
-
-<img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-
----
-
-*💡 "Code is like humor. When you have to explain it, it's bad." – Cory House*
-
-**Happy Coding! 🚀**
-
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
 </div>
