@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./screenshots/msp.png" width="150" alt="Manish Keer" />
+  <img src="./screenshots/ms.png" width="150" alt="Manish Keer" />
 </p>
 
 # Hi there, I'm Manish Keer 👋
