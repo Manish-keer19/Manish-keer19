@@ -70,7 +70,7 @@ const manish = {
 
 ### Backend
 <div align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,express,spring,java,socketio,prisma,postman,jest" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,spring,java,socketio,prisma,postman" />
 </div>
 
 </td>
