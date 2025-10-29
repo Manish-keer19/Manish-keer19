@@ -123,12 +123,22 @@ const manish = {
 
 ## 🌟 Featured Projects
 
-### 🎲 Manish's Bet App - Real-Time Betting Platform
-
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-6C63FF?style=for-the-badge&labelColor=0D1117)](https://manish-bet-app.vercel.app)
-[![Frontend Code](https://img.shields.io/badge/📂_Frontend-View_Code-181717?style=for-the-badge&logo=github&labelColor=0D1117)](https://github.com/Manish-keer19/Betting_App_Frontend)
+### 🎲 Manish's Bet App
+#### Real-Time Betting Platform
+
+<p>
+  <a href="https://manish-bet-app.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Live_Preview-Visit_Site-6C63FF?style=for-the-badge&labelColor=0D1117&borderRadius=10" alt="Live Demo"/>
+  </a>
+  <a href="https://github.com/Manish-keer19/Betting_App_Frontend" target="_blank">
+    <img src="https://img.shields.io/badge/⚡_View_Code-GitHub-181717?style=for-the-badge&logo=github&labelColor=0D1117" alt="Source Code"/>
+  </a>
+  <a href="#betting-app-preview">
+    <img src="https://img.shields.io/badge/📸_Preview-View_Images-FF6B6B?style=for-the-badge&labelColor=0D1117" alt="Preview Images"/>
+  </a>
+</p>
 
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -139,12 +149,7 @@ const manish = {
 
 </div>
 
-<table>
-<tr>
-<td width="50%" align="center">
-
 **✨ Key Features**
-
 - ⚡ Real-time betting engine supporting **100+ concurrent users**
 - 🔄 WebSocket-powered live odds synchronization
 - 🔐 JWT authentication + secure wallet system
@@ -152,28 +157,37 @@ const manish = {
 - 🎨 Responsive UI with Redux state management
 - 💰 Real-time balance updates & transaction history
 
-</td>
-<td width="50%" align="center">
+<div align="center" id="betting-app-preview">
 
 **📸 Project Screenshots**
 
-<img src="./screenshots/betting-game.png" width="90%" alt="Betting Interface"/>
-<br/><br/>
-<img src="./screenshots/wallet-system.png" width="90%" alt="Wallet System"/>
+<img src="./screenshots/betting-game.png" width="80%" alt="Betting Interface"/>
 
-</td>
-</tr>
-</table>
+<img src="./screenshots/wallet-system.png" width="80%" alt="Wallet System"/>
+
+</div>
 
 ---
 
-### 💬 Manish Chat App - Cross-Platform Messaging Suite
-
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Site-6C63FF?style=for-the-badge&labelColor=0D1117)](https://manishchatapp.vercel.app)
-[![Web Code](https://img.shields.io/badge/📂_Web_App-View_Code-181717?style=for-the-badge&logo=github&labelColor=0D1117)](https://github.com/Manish-keer19/chat-web-app)
-[![Android APK](https://img.shields.io/badge/📱_Android-Download_APK-3DDC84?style=for-the-badge&logo=android&labelColor=0D1117)](https://www.mediafire.com/file/7acyxs5grs88v25/ManishChatApp.apk/file)
+### 💬 Manish Chat App
+#### Cross-Platform Messaging Suite
+
+<p>
+  <a href="https://manishchatapp.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Live_Preview-Visit_Site-6C63FF?style=for-the-badge&labelColor=0D1117" alt="Live Demo"/>
+  </a>
+  <a href="https://github.com/Manish-keer19/chat-web-app" target="_blank">
+    <img src="https://img.shields.io/badge/⚡_View_Code-GitHub-181717?style=for-the-badge&logo=github&labelColor=0D1117" alt="Web Code"/>
+  </a>
+  <a href="https://www.mediafire.com/file/7acyxs5grs88v25/ManishChatApp.apk/file" target="_blank">
+    <img src="https://img.shields.io/badge/📱_Download-Android_APK-3DDC84?style=for-the-badge&logo=android&labelColor=0D1117" alt="Android APK"/>
+  </a>
+  <a href="#chat-app-preview">
+    <img src="https://img.shields.io/badge/📸_Preview-View_Images-FF6B6B?style=for-the-badge&labelColor=0D1117" alt="Preview Images"/>
+  </a>
+</p>
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
@@ -184,12 +198,7 @@ const manish = {
 
 </div>
 
-<table>
-<tr>
-<td width="50%" align="center">
-
 **✨ Key Features**
-
 - 💬 Real-time messaging with typing indicators
 - 🔑 OAuth2 authentication (Google & GitHub)
 - 👥 User presence & status updates
@@ -198,29 +207,36 @@ const manish = {
 - 🚀 Deployed with **99.9% uptime** on Vercel
 - 📨 Message history & search functionality
 
-</td>
-<td width="50%" align="center">
+<div align="center" id="chat-app-preview">
 
 **📸 Project Screenshots**
 
-<img src="./screenshots/chat-login.png" width="90%" alt="Chat Login"/>
-<br/><br/>
-<img src="./screenshots/chat-dashboard.png" width="90%" alt="Chat Dashboard"/>
-<br/><br/>
-<img src="./screenshots/android-chat-interface.jpg" width="45%" alt="Android Interface"/>
+<img src="./screenshots/chat-login.png" width="80%" alt="Chat Login"/>
 
-</td>
-</tr>
-</table>
+<img src="./screenshots/chat-dashboard.png" width="80%" alt="Chat Dashboard"/>
+
+<img src="./screenshots/android-chat-interface.jpg" width="40%" alt="Android Interface"/>
+
+</div>
 
 ---
 
-### 📱 InstaClone - Full-Stack Social Media App
-
 <div align="center">
 
-[![Download APK](https://img.shields.io/badge/📱_Download_APK-Android_App-3DDC84?style=for-the-badge&logo=android&labelColor=0D1117)](https://github.com/Manish-keer19/Full_Stack-InstaClone-apk)
-[![Source Code](https://img.shields.io/badge/📂_Source_Code-View_on_GitHub-181717?style=for-the-badge&logo=github&labelColor=0D1117)](https://github.com/Manish-keer19/Full_Stack-InstaClone-apk)
+### 📱 InstaClone
+#### Full-Stack Social Media App
+
+<p>
+  <a href="https://github.com/Manish-keer19/Full_Stack-InstaClone-apk" target="_blank">
+    <img src="https://img.shields.io/badge/📱_Download-Android_APK-3DDC84?style=for-the-badge&logo=android&labelColor=0D1117" alt="Download APK"/>
+  </a>
+  <a href="https://github.com/Manish-keer19/Full_Stack-InstaClone-apk" target="_blank">
+    <img src="https://img.shields.io/badge/⚡_View_Code-GitHub-181717?style=for-the-badge&logo=github&labelColor=0D1117" alt="Source Code"/>
+  </a>
+  <a href="#instaclone-preview">
+    <img src="https://img.shields.io/badge/📸_Preview-View_Images-FF6B6B?style=for-the-badge&labelColor=0D1117" alt="Preview Images"/>
+  </a>
+</p>
 
 ![React Native](https://img.shields.io/badge/React_Native_CLI-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white)
@@ -230,12 +246,7 @@ const manish = {
 
 </div>
 
-<table>
-<tr>
-<td width="50%" align="center">
-
 **✨ Key Features**
-
 - 📸 Complete Instagram clone functionality
 - 🎬 Posts, Stories, Likes, Comments, Follows
 - ☁️ Cloudinary integration processing **500+ images**
@@ -246,23 +257,19 @@ const manish = {
 - 👤 User profiles with bio & avatar
 - 🔔 Real-time notifications
 
-</td>
-<td width="50%" align="center">
+<div align="center" id="instaclone-preview">
 
 **📸 Project Screenshots**
 
-<img src="./screenshots/insta-feed.jpg" width="45%" alt="Feed"/>
-<img src="./screenshots/insta-profile.jpg" width="45%" alt="Profile"/>
+<img src="./screenshots/insta-feed.jpg" width="40%" alt="Feed"/>
 
-<br/><br/>
+<img src="./screenshots/insta-profile.jpg" width="40%" alt="Profile"/>
 
-**📱 Available on Android**
+<br/>
 
-<img src="https://img.shields.io/badge/50+-Downloads-success?style=for-the-badge&logo=android&logoColor=white" alt="Downloads"/>
+![Downloads](https://img.shields.io/badge/50+-Downloads-success?style=for-the-badge&logo=android&logoColor=white)
 
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
