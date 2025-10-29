@@ -1,209 +1,231 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Manish%20Keer&fontSize=60&fontAlignY=35&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Manish%20Keer&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20MERN%20%7C%20Spring%20Boot%20%7C%20Real-Time%20Systems&descSize=16&descAlignY=51"/>
 </div>
 
 <div align="center">
-  <img src="./screenshots/ms.jpg" width="200" height="200" style="border-radius:50%; border:5px solid #6e5494; margin-top:-50px; box-shadow:0 10px 30px rgba(0,0,0,0.2);" alt="Manish Keer" />
-</div>
+  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Building+Scalable+Web+%26+Mobile+Apps;MERN+Stack+%7C+Spring+Boot+Expert;Real-Time+Systems+Architect;Open+Source+Enthusiast)](https://git.io/typing-svg)
 
-<h1 align="center">Hi there 👋, I'm Manish Keer</h1>
-<h3 align="center">🚀 Full Stack & Android Developer | Building Digital Experiences</h3>
+</div>
 
 ---
-## 🛠️ Tech Stack & Tools
+
+## 👨‍💻 About Me
+
+```javascript
+const manish = {
+    location: "Indore, India 🇮🇳",
+    role: "Full Stack Developer",
+    education: "BCA @ Medi-Caps University (CGPA: 7.7/10)",
+    workStatus: "Available for Full-Time Opportunities",
+    
+    expertise: {
+        frontend: ["React.js", "React Native", "Redux", "TypeScript"],
+        backend: ["Node.js", "Express.js", "Spring Boot", "Socket.io"],
+        databases: ["MongoDB", "PostgreSQL", "MySQL", "Firebase"],
+        realtime: ["WebSockets", "Socket.io", "Server-Sent Events"],
+        tools: ["Git", "Docker", "Postman", "Vercel", "Cloudinary"]
+    },
+
+    openSource: true,
+    collaboration: "Always open to interesting projects!",
+    
+    contact: {
+        email: "manishkeer530[at]gmail[dot]com",
+        portfolio: "https://manish-portfolio19.vercel.app",
+        linkedin: "manish-keer19"
+    }
+};
+```
+
+<div align="center">
+
+### 🎯 Quick Highlights
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center">🚀</td>
+<td>Built <strong>real-time betting platform</strong> serving 100+ concurrent users</td>
+</tr>
+<tr>
+<td align="center">📱</td>
+<td>Published production Android apps with <strong>50+ organic downloads</strong></td>
+</tr>
+<tr>
+<td align="center">⚡</td>
+<td>Optimized APIs for <strong>sub-100ms response times</strong> under load</td>
+</tr>
+<tr>
+<td align="center">🔐</td>
+<td>Implemented <strong>JWT + OAuth2</strong> authentication systems</td>
+</tr>
+<tr>
+<td align="center">☁️</td>
+<td>Deployed full-stack apps with <strong>99.9% uptime</strong></td>
+</tr>
+<tr>
+<td align="center">🌐</td>
+<td><strong>All projects open source</strong> – community-first approach</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### 💻 Languages
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+</p>
+
+</td>
+<td align="center" width="50%">
 
 ### 🎨 Frontend Development
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
 
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"/>
+  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white" alt="Material-UI"/>
+</p>
+
+</td>
+</tr>
+<tr>
+<td align="center">
 
 ### ⚙️ Backend Development
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"/>
+  <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.io"/>
+  <img src="https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=rest&logoColor=white" alt="REST API"/>
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" alt="JWT"/>
+  <img src="https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge&logo=auth0&logoColor=white" alt="OAuth2"/>
+</p>
 
-</div>
+</td>
+<td align="center">
 
-### 🗃️ Databases
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+### 🗄️ Databases
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+<p align="center">
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white" alt="Prisma"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+</p>
 
-</div>
+</td>
+</tr>
+</table>
 
-### ☁️ Cloud & DevOps
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+<div align="center">
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+### 🔧 Tools & Platforms
 
-</div>
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm"/>
+  <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" alt="Cloudinary"/>
+</p>
 
 ### 📱 Mobile Development
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
 
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-
-</div>
-
-### 🛠️ Tools
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"/>
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
+  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo"/>
+</p>
 
 </div>
+
+---
 
 ## 🌟 Featured Projects
 
-### 🎲 ManishBetting App
 <table>
 <tr>
 <td width="50%">
-  
-#### 📌 Project Overview
-A real-time betting platform with instant game results and wallet management system.
 
-#### 🛠️ Tech Stack
-- **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Real-time:** WebSocket, Socket.io
+### 🎲 Manish's Bet App
+**Real-Time Betting Platform**
 
-#### ✨ Key Features
-- Real-time betting interface
-- Secure wallet system
-- 30-second quick games
-- Live leaderboards
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit-6C63FF?style=for-the-badge)](https://manish-bet-app.vercel.app)
+[![Code](https://img.shields.io/badge/📂_Frontend-View_Code-181717?style=for-the-badge&logo=github)](https://github.com/Manish-keer19/Betting_App_Frontend)
+
+**Tech Stack:**  
+`Node.js` `React` `WebSocket` `MongoDB` `Express.js` `Redux`
+
+**Highlights:**
+- ⚡ Supports **100+ concurrent users**
+- 🔄 WebSocket live odds sync
+- 🔐 JWT auth + secure wallet
+- 📊 **<100ms response times**
+- 🎨 Responsive Redux UI
 
 </td>
 <td width="50%">
-  
-![Betting App Screenshot](./screenshots/betting-game.png)
-*Home page interface*
 
-![Wallet System](./screenshots/wallet-system.png)
-*Wallet management*
+### 💬 Manish Chat App
+**Cross-Platform Messaging Suite**
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit-6C63FF?style=for-the-badge)](https://manishchatapp.vercel.app)
+[![Web Code](https://img.shields.io/badge/📂_Web-View_Code-181717?style=for-the-badge&logo=github)](https://github.com/Manish-keer19/chat-web-app)
+[![APK](https://img.shields.io/badge/📱_Android-Download-3DDC84?style=for-the-badge&logo=android)](https://www.mediafire.com/file/7acyxs5grs88v25/ManishChatApp.apk/file)
+
+**Tech Stack:**  
+`React` `Spring Boot` `WebSocket` `MongoDB` `OAuth2` `React Native`
+
+**Highlights:**
+- 💬 Real-time messaging
+- 🔑 OAuth2 (Google & GitHub)
+- 📱 Native Android app
+- 🖥️ Electron desktop version
+- 🚀 **99.9% uptime**
 
 </td>
 </tr>
 <tr>
-<td colspan="2" align="center">
-  
-[![Live Demo](https://img.shields.io/badge/Live_Demo-6e5494?style=for-the-badge&logo=vercel&logoColor=white)](https://manish-bet-app.vercel.app)
-[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manish-keer19/Betting_App_Frontend)
+<td colspan="2">
 
-</td>
-</tr>
-</table>
+### 📱 InstaClone
+**Full-Stack Social Media App**
 
----
+[![Download APK](https://img.shields.io/badge/📱_Download_APK-Android-3DDC84?style=for-the-badge&logo=android)](https://github.com/Manish-keer19/Full_Stack-InstaClone-apk)
+[![Source Code](https://img.shields.io/badge/📂_Source_Code-View-181717?style=for-the-badge&logo=github)](https://github.com/Manish-keer19/Full_Stack-InstaClone-apk)
 
-### 💬 ChatWebApplication
-<table>
-<tr>
-<td width="50%">
-  
-#### 📌 Project Overview
-Full-featured real-time messaging platform with OAuth integration.
+**Tech Stack:** `React Native CLI` `Express.js` `MongoDB` `Cloudinary` `JWT`
 
-#### 🛠️ Tech Stack
-- **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** JWT, OAuth
-
-#### ✨ Key Features
-- Real-time messaging
-- Google/GitHub login
-- Media sharing
-- Responsive design
-
-</td>
-<td width="50%">
-  
-![Chat Login](./screenshots/chat-login.png)
-*Login screen*
-
-![Chat Dashboard](./screenshots/chat-dashboard.png)
-*Chat interface*
-
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
-  
-[![Live Demo](https://img.shields.io/badge/Live_Demo-6e5494?style=for-the-badge&logo=vercel&logoColor=white)](https://manishchatapp.vercel.app)
-[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manish-keer19/chat-web-app)
-
-</td>
-</tr>
-</table>
-
----
-
-### 📱 Android Chat App
-<table>
-<tr>
-<td width="50%">
-  
-#### 📌 Project Overview
-Native Android messaging app with push notifications.
-
-#### 🛠️ Tech Stack
-- **Mobile:** React Native CLI
-- **Backend:** Spring Boot
-- **Database:** MongoDB
-- **Real-time:** WebSocket
-
-#### ✨ Key Features
-- OAuth login
-- Push notifications
-- Dark/light mode
-- Offline sync
-
-</td>
-<td width="50%">
-  
-![Android Chat](./screenshots/android-chat-interface.jpg)
-*Home screen*
-
-![Chat List](./screenshots/android-chat-list.jpg)
-*Chat list*
-
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
-  
-[![APK Download](https://img.shields.io/badge/APK_Download-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.mediafire.com/file/7acyxs5grs88v25/ManishChatApp.apk/file)
-[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manish-keer19/chatAndroidApp)
+**Highlights:**
+- 📸 Complete Instagram clone: posts, stories, likes, comments
+- ☁️ Cloudinary integration processing **500+ images**
+- ⚡ RESTful APIs with **30% faster data retrieval** via indexing
+- 🔐 Secure JWT authentication with token refresh
+- 📦 Production Android APK with **50+ downloads**
 
 </td>
 </tr>
@@ -214,41 +236,68 @@ Native Android messaging app with push notifications.
 ## 📊 GitHub Analytics
 
 <div align="center">
-  
-| <img src="https://github-readme-stats.vercel.app/api?username=Manish-keer19&show_icons=true&theme=radical&hide_border=true" alt="Stats" /> | <img src="https://github-readme-streak-stats.herokuapp.com/?user=Manish-keer19&theme=radical&hide_border=true" alt="Streak" /> |
-| ------------- | ------------- |
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Manish-keer19&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Manish-keer19&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF"/>
+</div>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Manish-keer19&theme=react-dark&hide_border=true&area=true" width="100%" alt="Activity Graph" />
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Manish-keer19&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" alt="GitHub Streak"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Manish-keer19&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FFFFFF" alt="Activity Graph"/>
+</div>
+
+---
+
+## 🤝 Let's Connect & Collaborate
+
+<div align="center">
+
+**I'm actively seeking full-time opportunities as a Full Stack Developer**  
+**Always open to collaborating on innovative projects!**
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Site-6C63FF?style=for-the-badge&labelColor=0D1117)](https://manish-portfolio19.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117)](https://www.linkedin.com/in/manish-keer19/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/Manish-keer19)
+
+[![Email](https://img.shields.io/badge/Email-manishkeer530%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:manishkeer530@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0D1117)](https://www.instagram.com/manish_keer19/)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117)](https://x.com/manishkeer_19)
+
+<br/>
+
+### 💼 Open to Opportunities In
+
+`Full Stack Development` • `Backend Engineering` • `Mobile Development` • `Real-Time Systems` • `Open Source`
+
+<br/>
+
+### 🌍 Languages Spoken
+
+**English** (Professional Working Proficiency) • **Hindi** (Native)
+
+<br/>
+
+### ⭐ Support My Work
+
+If you find my projects helpful, consider giving them a star!  
+**All my work is 100% open source and free to use.**
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=Manish-keer19&color=6C63FF&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
 
 ---
 
-## 🌐 Connect With Me
-
 <div align="center">
-  
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://manish-portfolio19.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manish-keer19/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/manishkeer_19)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/manish_keer19/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manishkeer19@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-  
-### ❤️ Visitors Count
-![Visitor Count](https://profile-counter.glitch.me/Manish-keer19/count.svg)
-
-### ⭐ If you like my work, don't forget to star my repos!
-  
-[![GitHub stars](https://img.shields.io/github/stars/Manish-keer19?label=Profile%20Stars&style=social)](https://github.com/Manish-keer19)
-
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 </div>
