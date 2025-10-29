@@ -4,7 +4,8 @@
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Building+Scalable+Web+%26+Mobile+Apps;MERN+Stack+%7C+Spring+Boot+Expert;Real-Time+Systems+Architect;Open+Source+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Full-Stack+%26+Android+Developer;Working+with+MERN+Stack+%26+Spring+Boot;Building+Web+%26+Mobile+Applications)](https://git.io/typing-svg)
+
 
 </div>
 
