@@ -44,12 +44,12 @@ NGINX (pronounced "engine-x") is a high-performance web server, reverse proxy, l
 ### What is a Reverse Proxy?
 A reverse proxy sits between the client (browser) and your backend server.
 
-```mermaid
-graph LR
-    Client[Client (Browser)] -- Request --> NGINX[NGINX (Port 80/443)]
-    NGINX -- Forward Request --> Node[Node.js App (Port 3000)]
-    Node -- Response --> NGINX
-    NGINX -- Response --> Client
+```
++------------------+       Request        +-------------------------+       Forward Request       +--------------------------+
+|                  | -------------------> |                         | --------------------------> |                          |
+| Client (Browser) |                      | NGINX (Port 80/443)     |                             | Node.js App (Port 3000)  |
+|                  | <------------------- |                         | <-------------------------- |                          |
++------------------+       Response       +-------------------------+          Response           +--------------------------+
 ```
 
 **Benefits**:
@@ -60,12 +60,18 @@ graph LR
 ### What is a Load Balancer?
 Distributes incoming traffic across multiple backend servers to ensure no single server is overwhelmed.
 
-```mermaid
-graph LR
-    Client -- Traffic --> NGINX
-    NGINX -- Round Robin --> Server1[App Server 1]
-    NGINX -- Round Robin --> Server2[App Server 2]
-    NGINX -- Round Robin --> Server3[App Server 3]
+```
+                                               +------------------+
+                                          +--> |   App Server 1   |
+                                          |    +------------------+
++--------+           +---------+          |
+| Client | --------> |  NGINX  | ---------+--> +------------------+
++--------+           +---------+          |    |   App Server 2   |
+                                          |    +------------------+
+                                          |
+                                          +--> +------------------+
+                                               |   App Server 3   |
+                                               +------------------+
 ```
 
 ### Key Concepts
