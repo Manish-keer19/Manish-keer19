@@ -1,0 +1,40 @@
+
+
+
+sudo rm -rf /var/www/vandan_frontend
+sudo mkdir -p /var/www/vandan_frontend
+sudo cp -r /home/ubuntu/vandan_yojana_frontend/dist/* /var/www/vandan_frontend
+sudo chown -R www-data:www-data /var/www/vandan_frontend
+sudo chmod -R 755 /var/www/vandan_frontend
+
+
+sudo nano /etc/nginx/sites-available/vandan_frontend
+
+
+
+server {
+    listen 80;
+    server_name _;
+
+    root /var/www/vandan_frontend;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    gzip on;
+    gzip_types text/css application/javascript application/json image/svg+xml;
+}
+
+
+
+
+
+sudo ln -s /etc/nginx/sites-available/vandan_frontend /etc/nginx/sites-enabled/
+sudo rm -f /etc/nginx/sites-enabled/default
+
+
+
+sudo nginx -t
+sudo systemctl reload nginx
