@@ -93,6 +93,10 @@ Nodes are the actual servers where your application workloads run.
 
 In the production world, we provision clusters using Infrastructure as Code (e.g., Terraform on EKS/GKE). For learning, we need local development clusters.
 
+### What is Minikube?
+
+Minikube is a local Kubernetes environment for developers. It runs a small Kubernetes cluster inside a VM or container on your laptop.
+
 ### Install Kubernetes with Minikube
 
 Minikube runs a single-node cluster inside a VM, Docker container, or bare-metal environment on your local machine.
@@ -386,6 +390,7 @@ Deployments are stateless and uniform. StatefulSets are used for stateful applic
 - Each Pod automatically gets its own PVC derived from a VolumeClaimTemplate.
 
 _End of Part 1. (Continues with Module 6)_
+
 ## Module 6: Scaling and High Availability
 
 Production environments require systems that adapt to traffic patterns automatically without human intervention.
@@ -590,6 +595,7 @@ velero restore create --from-backup production-backup-2026
 2. **Canary Deployment:** Route 5% of your live user traffic to the newly deployed pods. If you see elevated 500 HTTP errors or high latency in Grafana, abort. If metrics are healthy, gradually increase to 20%, 50%, 100%. Usually coordinated by Argo Rollouts or Istio.
 
 _End of Part 2. (Continues with Module 11)_
+
 ## Module 11: Troubleshooting
 
 In a live production environment, debugging quickly is the difference between a minor hiccup and a major outage.
@@ -779,4 +785,4 @@ _Ans:_ A deployed pod is likely leaking memory and lacked a defined resource `li
 
 ---
 
-_C
+\_C
