@@ -603,4 +603,175 @@ Never hardcode credentials in source files. In your CI pipeline, inject secrets:
 
 ---
 
+## Building with `npx expo run` (Expo CLI Method)
+
+Instead of calling Gradle directly, you can use **`npx expo run:android`** and **`npx expo run:ios`** — Expo's built-in commands that handle the native build and launch the app on a device or emulator in one step.
+
+> ✅ This is the **recommended approach** for most Expo developers. It wraps Gradle (and Xcode for iOS) so you don't need to `cd android/` or remember Gradle task names.
+
+---
+
+### Android — `npx expo run:android`
+
+#### Debug build (default)
+
+Builds the app in debug mode and launches it on a connected device or emulator:
+
+```bash
+npx expo run:android
+```
+
+#### Release build
+
+Pass the `--variant release` flag to compile a signed release build and install it directly on a connected device:
+
+```bash
+npx expo run:android --variant release
+```
+
+> ⚠️ **Before running release variant**, make sure you have completed [Step 2 (Generate Keystore)](#step-2--generate-a-keystore) and [Step 3 (Configure Gradle)](#step-3--configure-the-keystore-in-gradle). Without a valid signing config, the release build will fail.
+
+#### Target a specific device
+
+```bash
+# List connected devices / emulators
+npx expo run:android --list-devices
+
+# Run on a specific device by ID
+npx expo run:android --device <device-id>
+
+# Run release on a specific device
+npx expo run:android --variant release --device <device-id>
+```
+
+#### Additional useful flags
+
+| Flag | Description |
+|---|---|
+| `--variant release` | Build the release variant (signed) |
+| `--variant debug` | Build the debug variant (default) |
+| `--device` | Target a specific connected device by ID |
+| `--port` | Metro bundler port (default: 8081) |
+| `--no-build-cache` | Disables Gradle build cache for a clean build |
+| `--no-install` | Builds but does not install on device |
+
+#### Full example — clean release build on a specific device
+
+```bash
+npx expo run:android --variant release --no-build-cache --device emulator-5554
+```
+
+---
+
+### iOS — `npx expo run:ios`
+
+> ⚠️ **macOS only.** Building for iOS requires a Mac with Xcode installed.
+
+#### Prerequisites for iOS
+
+| Tool | Version | Notes |
+|---|---|---|
+| **macOS** | 13 (Ventura) or higher | Required for latest Xcode |
+| **Xcode** | 15 or higher | Download from Mac App Store |
+| **CocoaPods** | Latest | `sudo gem install cocoapods` |
+| **Apple Developer Account** | Free or Paid | Free allows device builds; paid required for App Store |
+
+#### Debug build (default)
+
+Builds and launches the app on the iOS Simulator:
+
+```bash
+npx expo run:ios
+```
+
+#### Release build
+
+```bash
+npx expo run:ios --configuration Release
+```
+
+> Note: Unlike Android which uses `--variant`, iOS uses `--configuration` with values `Debug` or `Release`.
+
+#### Target a specific simulator or device
+
+```bash
+# List available simulators
+npx expo run:ios --list-devices
+
+# Run on a specific simulator
+npx expo run:ios --device "iPhone 15 Pro"
+
+# Run release on a physical device (requires Apple Developer account)
+npx expo run:ios --configuration Release --device
+```
+
+#### Additional useful flags
+
+| Flag | Description |
+|---|---|
+| `--configuration Release` | Build the Release configuration (optimised, no dev tools) |
+| `--configuration Debug` | Build the Debug configuration (default) |
+| `--device` | Target a connected physical iPhone/iPad |
+| `--simulator` | Target a specific iOS Simulator by name |
+| `--port` | Metro bundler port (default: 8081) |
+| `--no-build-cache` | Disables Xcode derived data cache |
+
+#### Install CocoaPods dependencies (first time or after adding new packages)
+
+```bash
+cd ios
+pod install
+cd ..
+```
+
+Then run:
+
+```bash
+npx expo run:ios
+```
+
+---
+
+### Comparison: `expo run` vs Gradle directly
+
+| | `npx expo run:android` | `./gradlew assembleRelease` |
+|---|---|---|
+| **Ease of use** | ✅ Simple, one command | Requires navigating to `android/` |
+| **Installs on device** | ✅ Automatically | ❌ Manual `adb install` needed |
+| **Starts Metro bundler** | ✅ Yes | ❌ No — must start separately |
+| **Output APK/AAB file** | APK only (installs directly) | APK or AAB (file saved to disk) |
+| **Best for** | Development and device testing | CI/CD pipelines and Play Store uploads |
+| **Supports AAB** | ❌ No | ✅ Yes (`bundleRelease`) |
+
+**Rule of thumb:**
+- Use `npx expo run:android --variant release` to **test** your release build on a real device.
+- Use `./gradlew bundleRelease` to **produce the `.aab` file** for uploading to Google Play Store.
+
+---
+
+### Workflow Summary — From Code to Device
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    EXPO BUILD WORKFLOW                          │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  1. npx expo prebuild          → generates android/ and ios/   │
+│                                                                 │
+│  2. Configure keystore         → gradle.properties + build.gradle│
+│                                                                 │
+│  3a. TEST on device:                                            │
+│      npx expo run:android --variant release                     │
+│      npx expo run:ios --configuration Release                   │
+│                                                                 │
+│  3b. PRODUCE files for stores:                                  │
+│      cd android                                                 │
+│      ./gradlew bundleRelease   → app-release.aab (Play Store)   │
+│      ./gradlew assembleRelease → app-release.apk (direct)       │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 *Generated for Expo SDK 50+ with React Native 0.73+. Commands and paths may vary slightly for older SDK versions.*
