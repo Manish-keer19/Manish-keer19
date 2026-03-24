@@ -1,4 +1,0 @@
-id,email,username,password,role,mobile_no,profile,name,isActive,createdAt,aadhar,address,updatedAt,createdBy,activationCode,isLocationMandatory,partyId
-1,manishkeer530@gmail.com,manish19,$2b$10$hkrZwWs.PyMjPDd1zW8wB.41F3cjsdz4y7Zmdutc593QNksJ9rt1q,ADMIN,9691636336,NULL,manish,1,13:15.9,5555555555,melpiplya,NULL,NULL,8817,1,NULL
-6,nilesh@gmail.com,nilesh19,$2b$10$hkrZwWs.PyMjPDd1zW8wB.41F3cjsdz4y7Zmdutc593QNksJ9rt1q,USER,9165363367,NULL,Nilesh keer,1,28:46.6,253333333333,Melpipalya ,NULL,1,NULL,1,NULL
-7,programercoding8@gmail.com,programer,$2b$10$71/4cj21ODCIye3AfbDfk.nzTeYZpeFv5DeJdvFUxQKh5gOwkZhLS,USER,9691636366,NULL,Programer,1,04:36.9,555555555555,Melpipalya ,NULL,1,NULL,1,NULL
