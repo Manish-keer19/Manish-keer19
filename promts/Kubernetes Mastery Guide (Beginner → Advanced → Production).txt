@@ -1,0 +1,215 @@
+You are a Senior Kubernetes Architect, DevOps Engineer, and Cloud Infrastructure Expert with 15+ years of experience managing large-scale production Kubernetes clusters.
+
+Your task is to create a **Complete Kubernetes Mastery Guide** in **ONE Markdown (.md) file**.
+
+This must be structured as a **Professional Learning Curriculum** from:
+
+Beginner → Intermediate → Advanced → Production → Expert → Master
+
+---
+
+# Document Title
+
+# Kubernetes Mastery Guide (Beginner → Advanced → Production)
+
+---
+
+# Table of Contents
+
+Create full table of contents with:
+
+* Levels
+* Chapters
+* Subtopics
+
+---
+
+# Learning Structure
+
+The guide must be divided into:
+
+# Level 1 — Beginner
+
+Chapter 1 — Kubernetes Introduction
+Chapter 2 — Kubernetes Architecture
+Chapter 3 — Kubernetes Installation
+Chapter 4 — kubectl Basics
+Chapter 5 — Pods
+
+---
+
+# Level 2 — Intermediate
+
+Chapter 6 — Deployments
+Chapter 7 — ReplicaSets
+Chapter 8 — Services
+Chapter 9 — Labels & Selectors
+Chapter 10 — ConfigMaps
+Chapter 11 — Secrets
+Chapter 12 — Namespaces
+
+---
+
+# Level 3 — Advanced
+
+Chapter 13 — Volumes
+Chapter 14 — Persistent Volume
+Chapter 15 — Storage Classes
+Chapter 16 — Ingress
+Chapter 17 — Networking
+Chapter 18 — Resource Limits
+Chapter 19 — Health Checks
+
+---
+
+# Level 4 — Production
+
+Chapter 20 — Rolling Updates
+Chapter 21 — Autoscaling
+Chapter 22 — Jobs
+Chapter 23 — CronJobs
+Chapter 24 — RBAC
+Chapter 25 — Security
+
+---
+
+# Level 5 — Expert
+
+Chapter 26 — Helm
+Chapter 27 — Monitoring
+Chapter 28 — Logging
+Chapter 29 — Debugging
+Chapter 30 — Production Architecture
+Chapter 31 — Multi Node Cluster
+Chapter 32 — Kubernetes Internals
+
+---
+
+# Level 6 — Master
+
+Chapter 33 — Networking Deep Dive
+Chapter 34 — Service Mesh
+Chapter 35 — Performance Optimization
+Chapter 36 — CI/CD Kubernetes
+Chapter 37 — GitOps
+Chapter 38 — Multi Cluster
+Chapter 39 — Kubernetes at Scale
+
+---
+
+# Chapter Structure (MANDATORY)
+
+Each Chapter Must Include:
+
+## What You Will Learn
+
+## Why This Exists
+
+## How It Works Internally
+
+## Architecture Explanation
+
+## Real World Example
+
+## Commands
+
+## YAML Examples
+
+## Practical Exercises
+
+## Production Use Case
+
+## Common Mistakes
+
+## Best Practices
+
+## Hands-On Tasks
+
+## Debugging Section
+
+---
+
+# Add Architecture Diagrams
+
+Use ASCII diagrams
+
+Example:
+
+User → Service → Pod → Container
+
+---
+
+# Add Real World Projects Section
+
+Project 1 — Deploy Node App
+Project 2 — Deploy Full Stack App
+Project 3 — Deploy Microservices
+Project 4 — Production Kubernetes Setup
+
+---
+
+# Add Kubernetes Debugging Section
+
+Explain:
+
+* kubectl logs
+* kubectl describe
+* kubectl exec
+
+---
+
+# Add Kubernetes Production Folder Structure
+
+Example:
+
+/k8s
+/base
+/overlays
+/prod
+/dev
+
+---
+
+# Add Final Section
+
+# Kubernetes Mastery Checklist
+
+Example:
+
+✔ Pods
+✔ Deployments
+✔ Services
+✔ Ingress
+✔ Volumes
+✔ Autoscaling
+✔ Helm
+✔ Monitoring
+
+---
+
+# Formatting Rules
+
+Use:
+
+* Markdown headings
+* Tables
+* YAML blocks
+* Commands
+* ASCII diagrams
+
+---
+
+# Tone
+
+* Simple explanation
+* Deep technical details
+* Real world production thinking
+* Step by step learning
+
+---
+
+Generate Full Kubernetes Mastery Guide
+
+Do NOT summarize
+
+Create Complete Professional Kubernetes Handbook in One Markdown File
