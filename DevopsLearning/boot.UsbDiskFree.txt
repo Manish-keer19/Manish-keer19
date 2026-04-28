@@ -1,0 +1,14 @@
+✅ Best Fix (Works 100%) → Use Disk Management
+
+Follow this carefully:
+
+Press Windows + X → Disk Management
+Find your USB (look for ~64GB disk)
+You’ll see:
+One partition (37GB)
+Some unallocated / hidden space
+Now do this:
+Right-click on each partition → click Delete Volume
+After deleting all → it should show Unallocated (64GB)
+Right-click → New Simple Volume
+Click Next → Finish (default settings)
