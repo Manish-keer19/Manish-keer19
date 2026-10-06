@@ -1,0 +1,1256 @@
+Create a comprehensive Markdown learning guide named:
+
+# WEBRTC_FROM_BASIC_TO_ADVANCED.md
+
+The goal is to teach me WebRTC from absolute basics to advanced production-level concepts.
+
+I am a developer using:
+
+* React.js
+* Node.js
+* Express.js
+* Socket.IO
+* React Native
+* Ubuntu VPS
+* Nginx
+* WebRTC
+* coturn
+
+I want to understand WebRTC deeply, not just copy-paste code.
+
+The document must explain BOTH:
+
+1. How WebRTC works conceptually
+2. How to implement it practically
+
+Use simple English with occasional Hinglish-style explanations where useful.
+
+Do NOT assume that I already understand networking.
+
+---
+
+# PART 1 — WHAT IS WEBRTC?
+
+Explain:
+
+* What WebRTC is
+* Why WebRTC exists
+* What problems it solves
+* Browser-to-browser communication
+* Real-time audio
+* Real-time video
+* Data channels
+* Peer-to-peer communication
+* Why WebRTC is different from HTTP
+* Why WebRTC is different from WebSocket
+* Why WebRTC normally does not send video through Node.js/Express
+* Real-world examples:
+
+  * Google Meet
+  * WhatsApp calls
+  * Telegram calls
+  * Discord calls
+  * Zoom
+
+Explain what parts are standardized by WebRTC and what parts are application-specific.
+
+Include a simple architecture diagram.
+
+---
+
+# PART 2 — NETWORKING BASICS
+
+Before explaining STUN/TURN, teach the networking concepts required to understand them.
+
+Explain:
+
+* IP address
+* Private IP
+* Public IP
+* Port
+* TCP
+* UDP
+* NAT
+* Router
+* Firewall
+* LAN
+* WAN
+* IPv4
+* IPv6
+* localhost
+* 127.0.0.1
+* 192.168.x.x
+* 10.x.x.x
+* public VPS IP
+* client/server
+* packet
+* latency
+* bandwidth
+
+Explain NAT with a practical example:
+
+Phone:
+192.168.1.10
+
+Router:
+public IP
+
+Internet:
+VPS
+
+Explain why two devices on different networks cannot always directly connect to each other.
+
+---
+
+# PART 3 — WEBRTC ARCHITECTURE
+
+Explain every major WebRTC component:
+
+* getUserMedia()
+* MediaStream
+* MediaStreamTrack
+* RTCPeerConnection
+* RTCSessionDescription
+* RTCIceCandidate
+* RTCDataChannel
+* SDP
+* ICE
+* STUN
+* TURN
+* DTLS
+* SRTP
+* RTP
+* RTCP
+
+Create a diagram showing how all components relate.
+
+For example:
+
+User Camera
+↓
+MediaStream
+↓
+MediaStreamTrack
+↓
+RTCPeerConnection
+↓
+ICE
+↓
+STUN/TURN
+↓
+Network
+↓
+Remote RTCPeerConnection
+↓
+Remote MediaStream
+↓ <video>
+
+Explain each step carefully.
+
+---
+
+# PART 4 — CAMERA AND MICROPHONE
+
+Explain:
+
+navigator.mediaDevices.getUserMedia()
+
+Show React examples.
+
+Explain:
+
+```javascript
+navigator.mediaDevices.getUserMedia({
+  video: true,
+  audio: true
+});
+```
+
+Explain:
+
+* video constraints
+* audio constraints
+* resolution
+* frame rate
+* deviceId
+* facingMode
+* user
+* environment
+
+Show how to:
+
+* Start camera
+* Stop camera
+* Mute microphone
+* Unmute microphone
+* Turn camera off
+* Turn camera on
+* Switch front/rear camera on mobile browsers
+* Select a specific camera
+* Select microphone
+* Enumerate devices with enumerateDevices()
+
+Explain browser permission requirements.
+
+Explain HTTPS requirement for camera/microphone.
+
+---
+
+# PART 5 — OFFER AND ANSWER
+
+Explain SDP and the offer/answer model deeply.
+
+Explain:
+
+* createOffer()
+* setLocalDescription()
+* setRemoteDescription()
+* createAnswer()
+
+Explain exactly what happens when:
+
+User A calls User B.
+
+Use a numbered sequence:
+
+1. A gets camera/microphone
+2. A creates RTCPeerConnection
+3. A adds tracks
+4. A creates offer
+5. A sets local description
+6. A sends offer through signaling server
+7. B receives offer
+8. B sets remote description
+9. B creates answer
+10. B sets local description
+11. B sends answer
+12. A receives answer
+13. A sets remote description
+
+Explain why Node.js/Socket.IO is used for signaling.
+
+Important:
+
+Clearly explain:
+
+SIGNALING ≠ WEBRTC MEDIA
+
+Socket.IO transfers signaling messages.
+WebRTC transfers media.
+
+---
+
+# PART 6 — ICE
+
+Explain ICE in detail.
+
+Explain:
+
+* What ICE means
+* Why ICE is required
+* ICE candidates
+* Candidate gathering
+* Candidate checking
+* Candidate pairs
+* Connectivity checks
+* ICE states
+
+Explain candidate types:
+
+1. host
+2. server-reflexive / srflx
+3. relay
+
+Create diagrams.
+
+Explain:
+
+Host candidate:
+private/local address
+
+STUN:
+public mapped address
+
+TURN:
+relay address
+
+Explain how ICE chooses a working path.
+
+IMPORTANT:
+
+Do NOT incorrectly say "ICE first tries STUN and if STUN fails then TURN."
+
+Explain accurately that ICE gathers candidates and performs connectivity checks among candidate pairs, with direct candidates generally preferred when usable and relay candidates available when configured.
+
+---
+
+# PART 7 — STUN SERVER
+
+Explain STUN from absolute beginner level.
+
+Answer:
+
+* What is STUN?
+* Why is STUN needed?
+* Does STUN carry video?
+* Does STUN carry audio?
+* Does STUN store video?
+* What information does STUN provide?
+* How does NAT mapping work?
+* What is a server-reflexive candidate?
+
+Use this example:
+
+Local device:
+
+192.168.1.20:50000
+
+Router translates it to:
+
+PUBLIC_IP:62000
+
+STUN server sees:
+
+PUBLIC_IP:62000
+
+STUN responds with:
+
+PUBLIC_IP:62000
+
+Explain that STUN does not create a public IP.
+
+Explain what happens on the VPS.
+
+---
+
+# PART 8 — CREATE YOUR OWN STUN SERVER
+
+Teach me how to create my own STUN server on Ubuntu VPS.
+
+Use coturn.
+
+Explain:
+
+* What coturn is
+* Why coturn can provide STUN and TURN
+* Installation
+* Configuration
+* systemd
+* firewall
+* UFW
+* ports
+* testing
+
+Use Ubuntu commands.
+
+Example:
+
+```bash
+sudo apt update
+sudo apt install coturn -y
+```
+
+Explain every command.
+
+Show how to edit:
+
+```text
+/etc/turnserver.conf
+```
+
+Give a minimal STUN configuration first.
+
+Explain each configuration option.
+
+For example:
+
+```ini
+listening-port=3478
+fingerprint
+realm=YOUR_SERVER_IP
+```
+
+Explain:
+
+* 3478
+* UDP
+* TCP
+* fingerprint
+* realm
+
+Show how to start:
+
+```bash
+sudo systemctl enable coturn
+sudo systemctl restart coturn
+sudo systemctl status coturn
+```
+
+Show how to check:
+
+```bash
+sudo ss -tulpn | grep 3478
+```
+
+Show UFW rules.
+
+Explain how to test STUN.
+
+Explain how to configure React:
+
+```javascript
+const configuration = {
+  iceServers: [
+    {
+      urls: "stun:YOUR_SERVER_IP:3478"
+    }
+  ]
+};
+```
+
+Explain what happens when the browser uses this STUN server.
+
+---
+
+# PART 9 — TURN SERVER
+
+Explain TURN deeply.
+
+Answer:
+
+* What is TURN?
+* Why is TURN needed?
+* When does direct P2P fail?
+* Why some NAT/firewalls block direct connections
+* Why TURN acts as a relay
+* Does TURN carry video?
+* Does TURN carry audio?
+* Why TURN consumes bandwidth
+* Why TURN is more expensive than STUN
+
+Architecture:
+
+User A
+↓
+TURN Server
+↓
+User B
+
+Explain the difference:
+
+STUN:
+
+Client → STUN
+STUN → Client
+
+TURN:
+
+Client A → TURN → Client B
+
+Explain that TURN is a fallback/relay mechanism, not just "a stronger STUN."
+
+---
+
+# PART 10 — CREATE YOUR OWN TURN SERVER
+
+Teach me how to create a production-style TURN server using coturn on Ubuntu.
+
+Include:
+
+Installation
+
+Configuration
+
+Authentication
+
+Static credentials for learning
+
+Long-term credentials
+
+TURN REST API / shared secret style temporary credentials for production
+
+Explain why static TURN credentials should NOT be hardcoded into a production React application.
+
+Show a learning configuration such as:
+
+```ini
+listening-port=3478
+fingerprint
+lt-cred-mech
+realm=YOUR_SERVER_IP
+user=webrtcuser:STRONG_PASSWORD
+
+min-port=49160
+max-port=49200
+```
+
+Explain every line.
+
+Explain relay ports.
+
+Explain:
+
+```bash
+sudo ufw allow 3478/udp
+sudo ufw allow 3478/tcp
+sudo ufw allow 49160:49200/udp
+```
+
+Explain why these ports are required.
+
+Explain that cloud-provider firewalls/security groups may also need these ports.
+
+---
+
+# PART 11 — TEST TURN
+
+Teach me how to verify that TURN is actually working.
+
+Use coturn tools such as:
+
+```bash
+turnutils_uclient
+```
+
+Explain the command.
+
+Explain what:
+
+```text
+allocate response received: success
+Received relay addr
+channel bind success
+```
+
+means.
+
+Explain what it means if:
+
+```text
+tot_recv_msgs=0
+```
+
+when a peer isn't actually sending test traffic.
+
+Also explain how to troubleshoot:
+
+* authentication failure
+* port closed
+* firewall
+* coturn not running
+* wrong realm
+* wrong credentials
+* wrong relay range
+
+---
+
+# PART 12 — STUN VS TURN
+
+Create a clear comparison table:
+
+| Feature                  | STUN                   | TURN        |
+| ------------------------ | ---------------------- | ----------- |
+| Discovers public address | Yes                    | Yes/related |
+| Relays media             | No                     | Yes         |
+| Carries video            | No                     | Yes         |
+| Carries audio            | No                     | Yes         |
+| Bandwidth usage          | Very low               | High        |
+| Cost                     | Low                    | Higher      |
+| Purpose                  | Connectivity discovery | Media relay |
+
+Explain when each is used.
+
+---
+
+# PART 13 — SIGNALING SERVER WITH NODE.JS
+
+Build a complete signaling server using:
+
+* Node.js
+* Express
+* Socket.IO
+
+Explain:
+
+* connection
+* room
+* join-room
+* offer
+* answer
+* ice-candidate
+* user-joined
+* user-left
+* disconnect
+
+Give complete code.
+
+Use a room model.
+
+Explain exactly how two users communicate through signaling.
+
+Architecture:
+
+React A
+↓
+Socket.IO
+↓
+Node.js
+↓
+Socket.IO
+↓
+React B
+
+Make clear that video does NOT go through Node.js.
+
+---
+
+# PART 14 — COMPLETE 1-TO-1 VIDEO CALL
+
+Build a complete working example:
+
+React frontend
++
+Node.js/Express/Socket.IO
++
+WebRTC
++
+STUN
++
+optional TURN
+
+Features:
+
+* Join room
+* Camera
+* Microphone
+* Local video
+* Remote video
+* Offer
+* Answer
+* ICE candidates
+* End call
+* Mute
+* Camera on/off
+* Front/rear camera switching on supported mobile browsers
+* Screen sharing
+
+Provide complete code.
+
+Do not skip important error handling.
+
+---
+
+# PART 15 — ICE CANDIDATE RACE CONDITION
+
+Explain the common problem:
+
+addIceCandidate()
+
+being called before:
+
+setRemoteDescription()
+
+Explain why this happens.
+
+Show the correct solution using an ICE candidate queue.
+
+Example concept:
+
+```javascript
+const pendingCandidates = [];
+```
+
+Then explain when candidates should be added.
+
+This section is important because I want production-quality understanding.
+
+---
+
+# PART 16 — SCREEN SHARING
+
+Explain:
+
+```javascript
+navigator.mediaDevices.getDisplayMedia()
+```
+
+Explain:
+
+* Entire screen
+* Window
+* Browser tab
+* Screen audio
+* replaceTrack()
+
+Show how:
+
+Camera track
+
+becomes:
+
+Screen track
+
+without destroying the WebRTC connection.
+
+Explain how to detect when the user presses browser "Stop sharing".
+
+---
+
+# PART 17 — GROUP VIDEO CALL
+
+Explain why 1-to-1 is different from group calling.
+
+Explain Mesh architecture.
+
+Example:
+
+A ↔ B
+A ↔ C
+B ↔ C
+
+Explain why Mesh becomes expensive as participant count increases.
+
+Then explain SFU architecture.
+
+Explain:
+
+* SFU
+* MCU
+* Mesh
+* SFU vs MCU
+* why modern group calling systems commonly use SFUs
+
+Show architecture:
+
+Users
+↓
+SFU
+↓
+Users
+
+Explain popular WebRTC media servers:
+
+* mediasoup
+* LiveKit
+* Janus
+* Jitsi
+
+Do not just list them. Explain what role they perform.
+
+---
+
+# PART 18 — WEBRTC SECURITY
+
+Explain:
+
+* HTTPS
+* WSS
+* DTLS
+* SRTP
+* encryption
+* authentication
+* authorization
+* room security
+* TURN credential security
+* preventing unauthorized room access
+* preventing TURN abuse
+* rate limiting
+* token expiration
+
+Explain why:
+
+```javascript
+user:webrtcuser
+password:123456
+```
+
+should NOT be exposed in a production frontend.
+
+---
+
+# PART 19 — WEBRTC IN REACT NATIVE
+
+Explain how the architecture changes between:
+
+React Web
+
+and:
+
+React Native
+
+Explain:
+
+* react-native-webrtc
+* native camera
+* native microphone
+* Socket.IO
+* WebRTC peer connection
+* Android permissions
+* iOS permissions
+* development builds
+* Expo limitations when native WebRTC modules are required
+
+Show conceptual architecture for React Native.
+
+---
+
+# PART 20 — WHATSAPP/TELEGRAM-LIKE CALL ARCHITECTURE
+
+Explain at a high level how a large messaging application can implement calls.
+
+Include:
+
+* signaling
+* push notification
+* incoming call
+* ringing
+* accept
+* reject
+* WebRTC
+* STUN
+* TURN
+* SFU for group calls
+* call state
+* encryption
+* reconnect
+* network changes
+* background/foreground handling
+
+Clearly distinguish publicly documented facts from implementation details that are proprietary or not publicly confirmed.
+
+Do NOT claim that a specific company uses a specific implementation unless it is documented by a reliable source.
+
+---
+
+# PART 21 — CALL STATE MACHINE
+
+Create a state machine:
+
+```text
+IDLE
+ ↓
+CALLING
+ ↓
+RINGING
+ ↓
+ACCEPTED
+ ↓
+CONNECTING
+ ↓
+CONNECTED
+ ↓
+ENDED
+```
+
+Also explain:
+
+* rejected
+* busy
+* timeout
+* disconnected
+* reconnecting
+* failed
+
+Show how this state machine can be represented in React.
+
+---
+
+# PART 22 — WEBRTC CONNECTION STATES
+
+Explain:
+
+```javascript
+pc.connectionState
+pc.iceConnectionState
+pc.iceGatheringState
+pc.signalingState
+```
+
+Explain every possible state.
+
+Show how to debug them.
+
+---
+
+# PART 23 — DEBUGGING WEBRTC
+
+Create a troubleshooting guide.
+
+Problems:
+
+1. Camera not opening
+2. Microphone not opening
+3. Remote video black
+4. Local video works but remote video doesn't
+5. Offer arrives but answer doesn't
+6. ICE candidates missing
+7. STUN not returning srflx candidate
+8. TURN allocation failure
+9. Works on WiFi but not mobile network
+10. Works locally but not production
+11. HTTPS issue
+12. CORS issue
+13. Socket.IO connection failure
+14. NAT traversal failure
+15. Firewall problem
+16. TURN relay ports blocked
+
+Explain how to debug using:
+
+Chrome WebRTC internals:
+
+```text
+chrome://webrtc-internals
+```
+
+Explain what statistics to look at.
+
+---
+
+# PART 24 — WEBRTC NETWORK TYPES
+
+Explain:
+
+* host candidate
+* srflx
+* relay
+
+Show example candidate lines and explain their meaning.
+
+Explain how to determine whether a call is:
+
+Direct
+
+or:
+
+TURN-relayed.
+
+---
+
+# PART 25 — BANDWIDTH AND PERFORMANCE
+
+Explain:
+
+* bitrate
+* resolution
+* FPS
+* codec
+* bandwidth
+* packet loss
+* jitter
+* latency
+* RTT
+* congestion control
+
+Explain codecs:
+
+* VP8
+* VP9
+* H.264
+* AV1
+* Opus
+
+Explain audio vs video codecs.
+
+Explain how poor network quality affects calls.
+
+---
+
+# PART 26 — PRODUCTION DEPLOYMENT
+
+Teach deployment on Ubuntu VPS.
+
+Architecture:
+
+```text
+Internet
+   │
+   ├── HTTPS
+   │
+   ▼
+Nginx
+   │
+   ├── React
+   │
+   └── Node.js
+         │
+         └── Socket.IO
+
+Separate:
+coturn
+   │
+   ├── 3478
+   └── relay ports
+```
+
+Explain:
+
+* Nginx
+* SSL
+* Let's Encrypt
+* Certbot
+* WebSocket proxying
+* WSS
+* Node.js
+* PM2
+* coturn
+* firewall
+
+Explain why TURN should normally NOT be treated like an HTTP application behind a normal Nginx reverse proxy.
+
+---
+
+# PART 27 — DOMAIN VS IP
+
+Explain whether STUN/TURN can work with:
+
+```text
+stun:IP:3478
+turn:IP:3478
+```
+
+Explain why domains are preferable for production.
+
+Explain why TLS TURN:
+
+```text
+turns:
+```
+
+is easier to manage with a proper domain and certificate.
+
+Also explain that IP-only setup is perfectly useful for initial learning/testing.
+
+---
+
+# PART 28 — COMPLETE PRODUCTION ARCHITECTURE
+
+Design a realistic architecture for:
+
+React
++
+Node.js
++
+Socket.IO
++
+WebRTC
++
+STUN
++
+TURN
++
+SFU
+
+Example:
+
+```text
+                    Internet
+                       │
+                ┌──────┴──────┐
+                │             │
+              Nginx         Coturn
+                │          STUN/TURN
+                │
+          Node.js API
+                │
+          Socket.IO
+                │
+                ▼
+               SFU
+          /      |      \
+         /       |       \
+       User A  User B  User C
+```
+
+Explain every connection.
+
+---
+
+# PART 29 — BUILD THE PROJECT STEP BY STEP
+
+Create a practical project roadmap.
+
+Stage 1:
+Camera preview
+
+Stage 2:
+1-to-1 WebRTC
+
+Stage 3:
+Node.js signaling
+
+Stage 4:
+Own STUN
+
+Stage 5:
+Own TURN
+
+Stage 6:
+Mute/camera controls
+
+Stage 7:
+Screen sharing
+
+Stage 8:
+Camera switching
+
+Stage 9:
+Call state
+
+Stage 10:
+Group Mesh
+
+Stage 11:
+SFU
+
+Stage 12:
+Authentication
+
+Stage 13:
+Production deployment
+
+For every stage specify:
+
+* What to build
+* What concept it teaches
+* What files to create
+* What to test
+* Expected result
+
+---
+
+# PART 30 — IMPORTANT MISCONCEPTIONS
+
+Create a section titled:
+
+# Common WebRTC Misconceptions
+
+Correct these:
+
+❌ STUN carries video
+
+❌ TURN is the same as STUN
+
+❌ Socket.IO carries video
+
+❌ Node.js handles WebRTC media
+
+❌ ICE waits for STUN to fail before trying TURN
+
+❌ WebRTC always means direct P2P
+
+❌ Group calling only requires adding more users to one RTCPeerConnection
+
+❌ TURN is required for every call
+
+❌ STUN creates a public IP
+
+❌ Screen sharing requires a separate server
+
+❌ Camera switching requires ending the call
+
+Explain the correct version of each.
+
+---
+
+# PART 31 — GLOSSARY
+
+Create a glossary for:
+
+WebRTC
+ICE
+STUN
+TURN
+NAT
+SDP
+RTP
+RTCP
+SRTP
+DTLS
+SCTP
+UDP
+TCP
+SFU
+MCU
+MediaStream
+MediaStreamTrack
+RTCPeerConnection
+ICE Candidate
+Signaling
+Offer
+Answer
+Relay
+Host Candidate
+Server Reflexive Candidate
+
+Each definition should be beginner-friendly.
+
+---
+
+# PART 32 — VISUAL SUMMARY
+
+At the end, create one large architecture diagram showing:
+
+```text
+React
+ │
+ ├── Camera
+ ├── Microphone
+ ├── Screen
+ │
+ ▼
+MediaStream
+ │
+ ▼
+RTCPeerConnection
+ │
+ ├──────────────┐
+ │              │
+ ICE          Signaling
+ │              │
+ ├── STUN       └── Socket.IO
+ │
+ ├── TURN
+ │
+ ▼
+Internet
+ │
+ ▼
+Remote Peer / SFU
+```
+
+Explain every arrow.
+
+---
+
+# IMPORTANT WRITING REQUIREMENTS
+
+1. Explain concepts before code.
+2. Use simple language.
+3. Use real-world examples.
+4. Use diagrams frequently.
+5. Use tables for comparisons.
+6. Explain every important line of configuration.
+7. Never assume networking knowledge.
+8. Don't just say "use STUN/TURN"; explain why.
+9. Don't just give commands; explain what each command does.
+10. Separate learning configuration from production configuration.
+11. Clearly identify security risks.
+12. Clearly distinguish signaling from media transport.
+13. Clearly distinguish STUN from TURN.
+14. Clearly explain ICE candidate gathering and connectivity checks.
+15. Clearly explain Mesh vs SFU.
+16. Use React + Node.js + Socket.IO examples throughout.
+17. Include complete runnable examples where appropriate.
+18. Avoid obsolete WebRTC APIs where possible.
+19. Mention browser support/limitations when relevant.
+20. Don't claim proprietary implementation details about WhatsApp, Telegram, Zoom, etc. without reliable documentation.
+21. For current technical information that may change, prefer official documentation and clearly identify the source.
+22. Do not use unexplained abbreviations. Define the abbreviation first.
+23. Use code comments to explain important lines.
+24. Add a "What should I learn next?" section after every major part.
+25. End with a practical checklist:
+
+WEBRTC BEGINNER → INTERMEDIATE → ADVANCED → PRODUCTION
+
+The final Markdown file should feel like a complete personal WebRTC textbook and practical handbook, not a short tutorial.

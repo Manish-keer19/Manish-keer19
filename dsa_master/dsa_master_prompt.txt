@@ -1,0 +1,1029 @@
+Create a complete DSA_MASTER_ROADMAP.md for me.
+
+IMPORTANT:
+I do NOT want explanations of topics.
+
+I only want a COMPLETE STEP-BY-STEP LEARNING ROADMAP / CHECKLIST.
+
+The purpose of this file is to tell me EXACTLY WHAT TO LEARN AND IN WHAT ORDER.
+
+I will learn each topic from courses, books, YouTube, documentation, or other resources separately.
+
+DO NOT explain the topics.
+DO NOT give tutorials.
+DO NOT give theory.
+DO NOT give code.
+DO NOT give problem solutions.
+
+Only give me:
+- What to learn
+- What to learn before it
+- Exact order
+- Data structures
+- Algorithms
+- Problem-solving patterns
+- Important supporting concepts
+- Java topics required for DSA
+- Important problem categories
+- Advanced topics
+- Interview preparation
+
+Use Markdown checkboxes:
+
+- [ ] Topic
+
+==================================================
+PHASE 0 — PROGRAMMING + JAVA BEFORE DSA
+==================================================
+
+First create the complete Java prerequisite roadmap.
+
+Put everything required before starting DSA in the correct order.
+
+Include:
+
+Java Fundamentals
+- [ ] Java installation/setup
+- [ ] Program structure
+- [ ] main method
+- [ ] Variables
+- [ ] Data types
+- [ ] Primitive types
+- [ ] Type casting
+- [ ] Operators
+- [ ] Input/output
+- [ ] if/else
+- [ ] switch
+- [ ] for loop
+- [ ] while loop
+- [ ] do while
+- [ ] Nested loops
+
+Methods
+- [ ] Methods
+- [ ] Parameters
+- [ ] Return values
+- [ ] Method overloading
+- [ ] Scope
+- [ ] Pass by value
+
+Java OOP required for DSA
+- [ ] Class
+- [ ] Object
+- [ ] Constructor
+- [ ] this
+- [ ] static
+- [ ] Encapsulation
+- [ ] Inheritance
+- [ ] Polymorphism
+- [ ] Abstraction
+- [ ] Interface
+- [ ] Abstract class
+
+Java DSA essentials
+- [ ] Arrays
+- [ ] 2D arrays
+- [ ] String
+- [ ] StringBuilder
+- [ ] StringBuffer
+- [ ] char
+- [ ] Character
+- [ ] Integer
+- [ ] Math
+- [ ] Arrays utility
+- [ ] Collections framework
+- [ ] ArrayList
+- [ ] LinkedList
+- [ ] HashMap
+- [ ] HashSet
+- [ ] TreeMap
+- [ ] TreeSet
+- [ ] Stack concepts
+- [ ] ArrayDeque
+- [ ] Queue
+- [ ] Deque
+- [ ] PriorityQueue
+- [ ] Comparator
+- [ ] Comparable
+- [ ] Custom sorting
+- [ ] Collections.sort
+- [ ] Arrays.sort
+
+Java concepts needed for recursive/data-structure code
+- [ ] References
+- [ ] Object references
+- [ ] null
+- [ ] Recursion in Java
+- [ ] Call stack
+- [ ] static methods
+- [ ] Custom Node classes
+- [ ] Custom TreeNode classes
+
+Java performance / interview essentials
+- [ ] BigInteger awareness
+- [ ] Integer overflow
+- [ ] int vs long
+- [ ] Character/ASCII handling
+- [ ] String performance
+- [ ] Array vs ArrayList
+- [ ] HashMap behavior
+- [ ] HashSet behavior
+- [ ] Stack vs ArrayDeque
+- [ ] Queue implementations
+- [ ] PriorityQueue behavior
+
+Java DSA input/output
+- [ ] Scanner
+- [ ] BufferedReader
+- [ ] StringTokenizer
+- [ ] Fast input
+- [ ] String parsing
+
+==================================================
+PHASE 1 — DSA FOUNDATIONS
+==================================================
+
+Learn these BEFORE serious problem solving:
+
+- [ ] What is a data structure?
+- [ ] What is an algorithm?
+- [ ] Time complexity
+- [ ] Space complexity
+- [ ] Big-O
+- [ ] Big-Omega
+- [ ] Big-Theta
+- [ ] Best/average/worst case
+- [ ] Amortized complexity
+- [ ] Recursion basics
+- [ ] Iteration vs recursion
+- [ ] Constraints analysis
+- [ ] Brute force thinking
+- [ ] Optimization thinking
+- [ ] Basic mathematical reasoning
+
+Complexity orders:
+
+- [ ] O(1)
+- [ ] O(log n)
+- [ ] O(n)
+- [ ] O(n log n)
+- [ ] O(n²)
+- [ ] O(n³)
+- [ ] O(2ⁿ)
+- [ ] O(n!)
+- [ ] Space complexity
+
+==================================================
+PHASE 2 — ARRAYS
+==================================================
+
+Learn Arrays completely FIRST.
+
+- [ ] 1D Arrays
+- [ ] 2D Arrays
+- [ ] Array traversal
+- [ ] Array insertion/deletion
+- [ ] Array searching
+- [ ] Array manipulation
+- [ ] In-place operations
+- [ ] Matrix basics
+
+Then learn Array patterns IN THIS ORDER:
+
+- [ ] Basic traversal
+- [ ] Frequency counting
+- [ ] Hashing with arrays
+- [ ] Two pointers
+- [ ] Sliding window
+- [ ] Fixed-size sliding window
+- [ ] Variable-size sliding window
+- [ ] Prefix sum
+- [ ] Suffix sum
+- [ ] Prefix XOR
+- [ ] Difference array
+- [ ] Kadane's algorithm
+- [ ] Sorting + scanning
+- [ ] Sorting + two pointers
+- [ ] Binary search
+- [ ] Binary search variations
+- [ ] Binary search on answer
+- [ ] Rotated binary search
+- [ ] Cyclic sort
+- [ ] Dutch National Flag
+- [ ] Subarray techniques
+- [ ] Subsequence techniques
+- [ ] In-place array manipulation
+
+Then:
+
+- [ ] Matrix traversal
+- [ ] Spiral matrix
+- [ ] Matrix rotation
+- [ ] Matrix transpose
+- [ ] Diagonal traversal
+- [ ] Grid traversal
+
+==================================================
+PHASE 3 — STRINGS
+==================================================
+
+After Arrays, learn Strings.
+
+- [ ] String basics
+- [ ] Character manipulation
+- [ ] ASCII
+- [ ] Character frequency
+- [ ] StringBuilder
+- [ ] String comparison
+- [ ] String manipulation
+
+String patterns:
+
+- [ ] Frequency counting
+- [ ] Hashing
+- [ ] Anagram pattern
+- [ ] Two pointers on strings
+- [ ] Sliding window on strings
+- [ ] Fixed sliding window
+- [ ] Variable sliding window
+- [ ] Prefix techniques
+- [ ] Palindrome techniques
+- [ ] Substring techniques
+- [ ] Subsequence techniques
+
+Then advanced string algorithms:
+
+- [ ] String hashing
+- [ ] KMP
+- [ ] Prefix function
+- [ ] Z algorithm
+- [ ] Rabin-Karp
+- [ ] Trie-based string problems
+- [ ] Manacher's algorithm
+
+==================================================
+PHASE 4 — HASHING
+==================================================
+
+Now master hashing deeply.
+
+- [ ] HashMap
+- [ ] HashSet
+- [ ] Frequency map
+- [ ] Frequency array
+- [ ] Complement lookup
+- [ ] Duplicate detection
+- [ ] Grouping
+- [ ] Prefix sum + HashMap
+- [ ] Prefix XOR + HashMap
+- [ ] Longest consecutive sequence
+- [ ] Hashing + sliding window
+- [ ] Hashing + two pointers
+
+==================================================
+PHASE 5 — SORTING
+==================================================
+
+Learn sorting in this order:
+
+- [ ] Bubble Sort
+- [ ] Selection Sort
+- [ ] Insertion Sort
+- [ ] Merge Sort
+- [ ] Quick Sort
+- [ ] Heap Sort
+- [ ] Counting Sort
+- [ ] Radix Sort
+- [ ] Bucket Sort
+- [ ] Custom Comparator
+- [ ] Comparable
+- [ ] Sorting objects
+- [ ] Sorting + greedy
+- [ ] Sorting + two pointers
+- [ ] Sorting + binary search
+- [ ] Sorting + intervals
+
+==================================================
+PHASE 6 — LINKED LIST
+==================================================
+
+Learn:
+
+- [ ] Singly Linked List
+- [ ] Doubly Linked List
+- [ ] Circular Linked List
+- [ ] Linked List implementation
+- [ ] Node manipulation
+- [ ] Insertion
+- [ ] Deletion
+- [ ] Searching
+- [ ] Reversal
+
+Then patterns:
+
+- [ ] Dummy node
+- [ ] Fast and slow pointers
+- [ ] Find middle
+- [ ] Detect cycle
+- [ ] Find cycle entry
+- [ ] Remove Nth node
+- [ ] Reverse linked list
+- [ ] Reverse sublist
+- [ ] Reverse in K groups
+- [ ] Merge two lists
+- [ ] Merge K lists
+- [ ] Intersection
+- [ ] Palindrome linked list
+- [ ] Reorder linked list
+- [ ] Linked List + recursion
+
+==================================================
+PHASE 7 — STACK
+==================================================
+
+Learn:
+
+- [ ] Stack fundamentals
+- [ ] Stack implementation
+- [ ] Array-based stack
+- [ ] Linked-list stack
+- [ ] Java ArrayDeque as stack
+
+Patterns:
+
+- [ ] Basic stack
+- [ ] Parentheses
+- [ ] Expression evaluation
+- [ ] Min Stack
+- [ ] Monotonic Stack
+- [ ] Next Greater Element
+- [ ] Next Smaller Element
+- [ ] Previous Greater Element
+- [ ] Previous Smaller Element
+- [ ] Histogram pattern
+- [ ] Stack + greedy
+- [ ] Stack + intervals
+
+==================================================
+PHASE 8 — QUEUE / DEQUE
+==================================================
+
+- [ ] Queue
+- [ ] Queue implementation
+- [ ] Circular Queue
+- [ ] Deque
+- [ ] ArrayDeque
+- [ ] Queue using stacks
+- [ ] Stack using queues
+- [ ] Monotonic Queue
+- [ ] Sliding Window Maximum
+- [ ] BFS queue concept
+
+==================================================
+PHASE 9 — RECURSION
+==================================================
+
+Master recursion BEFORE serious backtracking.
+
+- [ ] Recursion fundamentals
+- [ ] Base case
+- [ ] Recursive case
+- [ ] Call stack
+- [ ] Recursion tree
+- [ ] Recursion on arrays
+- [ ] Recursion on strings
+- [ ] Multiple recursive calls
+- [ ] Tail recursion awareness
+- [ ] Recursion complexity
+- [ ] Convert recursion to iteration
+- [ ] Divide and conquer
+
+==================================================
+PHASE 10 — BACKTRACKING
+==================================================
+
+Learn:
+
+- [ ] Decision tree
+- [ ] Choice/explore/unchoose
+- [ ] Subsets
+- [ ] Subsequences
+- [ ] Permutations
+- [ ] Combinations
+- [ ] Combination Sum
+- [ ] Duplicate handling
+- [ ] Constraint-based search
+- [ ] Generate Parentheses
+- [ ] Palindrome Partitioning
+- [ ] N-Queens
+- [ ] Sudoku
+- [ ] Rat in a Maze
+- [ ] Word Search
+- [ ] Backtracking + Trie
+
+==================================================
+PHASE 11 — BINARY SEARCH
+==================================================
+
+Master binary search separately.
+
+- [ ] Basic binary search
+- [ ] Search space
+- [ ] Lower bound
+- [ ] Upper bound
+- [ ] First occurrence
+- [ ] Last occurrence
+- [ ] First/last position
+- [ ] Search insert position
+- [ ] Binary search on sorted arrays
+- [ ] Binary search on rotated arrays
+- [ ] Find minimum rotated array
+- [ ] Peak element
+- [ ] 2D binary search
+- [ ] Binary search on answer
+- [ ] Minimum feasible answer
+- [ ] Maximum feasible answer
+- [ ] Search on monotonic function
+
+==================================================
+PHASE 12 — TREES
+==================================================
+
+Learn binary trees.
+
+- [ ] Tree terminology
+- [ ] Binary Tree
+- [ ] TreeNode
+- [ ] Recursive traversal
+- [ ] Iterative traversal
+
+Traversals:
+
+- [ ] Preorder
+- [ ] Inorder
+- [ ] Postorder
+- [ ] Level Order
+- [ ] Reverse Level Order
+- [ ] Morris Traversal
+
+Tree patterns:
+
+- [ ] DFS
+- [ ] BFS
+- [ ] Height
+- [ ] Depth
+- [ ] Diameter
+- [ ] Balanced Tree
+- [ ] Path Sum
+- [ ] Maximum Path Sum
+- [ ] Root-to-leaf paths
+- [ ] Lowest Common Ancestor
+- [ ] Tree views
+- [ ] Left View
+- [ ] Right View
+- [ ] Top View
+- [ ] Bottom View
+- [ ] Vertical Traversal
+- [ ] Boundary Traversal
+- [ ] Zigzag Traversal
+- [ ] Serialize/Deserialize
+- [ ] Construct Tree from Traversals
+- [ ] Tree + HashMap
+- [ ] Tree with state
+- [ ] Tree DP
+
+==================================================
+PHASE 13 — BINARY SEARCH TREE
+==================================================
+
+- [ ] BST properties
+- [ ] Search
+- [ ] Insert
+- [ ] Delete
+- [ ] Validate BST
+- [ ] Kth smallest
+- [ ] Kth largest
+- [ ] LCA in BST
+- [ ] Predecessor
+- [ ] Successor
+- [ ] Recover BST
+- [ ] Construct BST
+- [ ] Sorted array to BST
+
+==================================================
+PHASE 14 — HEAP / PRIORITY QUEUE
+==================================================
+
+- [ ] Heap concept
+- [ ] Min Heap
+- [ ] Max Heap
+- [ ] Heapify
+- [ ] Insert
+- [ ] Delete
+- [ ] Build Heap
+- [ ] Heap Sort
+- [ ] Java PriorityQueue
+
+Patterns:
+
+- [ ] Top K
+- [ ] Kth largest
+- [ ] Kth smallest
+- [ ] K closest
+- [ ] Merge K sorted lists
+- [ ] Two Heaps
+- [ ] Median from Data Stream
+- [ ] Heap + Greedy
+- [ ] Priority Queue scheduling
+
+==================================================
+PHASE 15 — GREEDY
+==================================================
+
+Learn greedy after sorting, heap, arrays and intervals.
+
+- [ ] Greedy fundamentals
+- [ ] Greedy choice
+- [ ] Sorting + Greedy
+- [ ] Activity Selection
+- [ ] Fractional Knapsack
+- [ ] Job Sequencing
+- [ ] Jump Game
+- [ ] Gas Station
+- [ ] Minimum Platforms
+- [ ] Meeting Rooms
+- [ ] Interval Scheduling
+- [ ] Merge Intervals
+- [ ] Huffman Coding
+- [ ] Heap + Greedy
+
+==================================================
+PHASE 16 — INTERVALS
+==================================================
+
+- [ ] Merge Intervals
+- [ ] Insert Interval
+- [ ] Overlapping Intervals
+- [ ] Non-overlapping Intervals
+- [ ] Meeting Rooms
+- [ ] Meeting Rooms II
+- [ ] Interval Scheduling
+- [ ] Interval Greedy
+- [ ] Sweep Line
+- [ ] Difference Array
+- [ ] Coordinate Compression
+
+==================================================
+PHASE 17 — GRAPHS
+==================================================
+
+Learn graph fundamentals:
+
+- [ ] Graph terminology
+- [ ] Directed graph
+- [ ] Undirected graph
+- [ ] Weighted graph
+- [ ] Unweighted graph
+- [ ] Adjacency Matrix
+- [ ] Adjacency List
+- [ ] Edge List
+- [ ] Degree
+- [ ] In-degree
+- [ ] Out-degree
+
+Graph traversal:
+
+- [ ] BFS
+- [ ] DFS
+- [ ] Recursive DFS
+- [ ] Iterative DFS
+- [ ] Connected Components
+- [ ] Grid DFS
+- [ ] Grid BFS
+- [ ] Number of Islands
+- [ ] Flood Fill
+- [ ] Multi-source BFS
+
+Graph patterns:
+
+- [ ] Cycle Detection Undirected
+- [ ] Cycle Detection Directed
+- [ ] Bipartite Graph
+- [ ] Topological Sort
+- [ ] Kahn's Algorithm
+- [ ] DFS Topological Sort
+- [ ] DAG
+- [ ] DAG DP
+
+Shortest path:
+
+- [ ] BFS shortest path
+- [ ] Dijkstra
+- [ ] Bellman-Ford
+- [ ] Floyd-Warshall
+- [ ] 0-1 BFS
+
+Minimum Spanning Tree:
+
+- [ ] MST concept
+- [ ] Prim's Algorithm
+- [ ] Kruskal's Algorithm
+
+Advanced graph:
+
+- [ ] Disjoint Set Union
+- [ ] Union Find
+- [ ] Path Compression
+- [ ] Union by Rank
+- [ ] Union by Size
+- [ ] Bridges
+- [ ] Articulation Points
+- [ ] Strongly Connected Components
+- [ ] Kosaraju
+- [ ] Tarjan
+- [ ] Condensation Graph
+
+==================================================
+PHASE 18 — TRIE
+==================================================
+
+- [ ] Trie structure
+- [ ] Trie Node
+- [ ] Insert
+- [ ] Search
+- [ ] Prefix Search
+- [ ] Delete
+- [ ] Word Dictionary
+- [ ] Autocomplete
+- [ ] Word Search + Trie
+- [ ] Maximum XOR Trie
+
+==================================================
+PHASE 19 — BIT MANIPULATION
+==================================================
+
+- [ ] Binary representation
+- [ ] AND
+- [ ] OR
+- [ ] XOR
+- [ ] NOT
+- [ ] Left shift
+- [ ] Right shift
+- [ ] Set bit
+- [ ] Clear bit
+- [ ] Toggle bit
+- [ ] Check bit
+- [ ] Count set bits
+- [ ] Power of two
+- [ ] XOR tricks
+- [ ] Missing Number
+- [ ] Single Number
+- [ ] Two Unique Numbers
+- [ ] Bitmasking
+- [ ] Generate subsets using bits
+- [ ] Bitmask + DP
+
+==================================================
+PHASE 20 — DYNAMIC PROGRAMMING
+==================================================
+
+Do NOT start DP until recursion, trees, graphs, arrays and greedy fundamentals are comfortable.
+
+Learn DP in this order:
+
+- [ ] DP fundamentals
+- [ ] Overlapping subproblems
+- [ ] Optimal substructure
+- [ ] State
+- [ ] Transition
+- [ ] Base case
+- [ ] Memoization
+- [ ] Tabulation
+- [ ] Space optimization
+
+DP patterns:
+
+- [ ] 1D DP
+- [ ] Fibonacci DP
+- [ ] Climbing Stairs
+- [ ] House Robber
+- [ ] Grid DP
+- [ ] 2D DP
+- [ ] Subset Sum
+- [ ] Partition DP
+- [ ] 0/1 Knapsack
+- [ ] Unbounded Knapsack
+- [ ] Coin Change
+- [ ] Target Sum
+- [ ] Longest Common Subsequence
+- [ ] Longest Common Substring
+- [ ] Longest Increasing Subsequence
+- [ ] Edit Distance
+- [ ] Distinct Subsequences
+- [ ] Palindromic DP
+- [ ] Interval DP
+- [ ] Matrix Chain Multiplication
+- [ ] State Machine DP
+- [ ] Tree DP
+- [ ] DAG DP
+- [ ] Bitmask DP
+- [ ] Digit DP
+
+==================================================
+PHASE 21 — ADVANCED DATA STRUCTURES
+==================================================
+
+Only after core DSA is strong:
+
+- [ ] Segment Tree
+- [ ] Segment Tree with range queries
+- [ ] Lazy Propagation
+- [ ] Fenwick Tree / BIT
+- [ ] Sparse Table
+- [ ] Range Minimum Query
+- [ ] Range Sum Query
+- [ ] Coordinate Compression
+- [ ] Advanced DSU
+- [ ] Sweep Line
+- [ ] Offline Queries
+- [ ] Mo's Algorithm
+
+==================================================
+PHASE 22 — ADVANCED ALGORITHMIC TECHNIQUES
+==================================================
+
+- [ ] Divide and Conquer
+- [ ] Meet in the Middle
+- [ ] Randomized Algorithms
+- [ ] Matrix Exponentiation
+- [ ] Fast Exponentiation
+- [ ] Modular Arithmetic
+- [ ] GCD
+- [ ] LCM
+- [ ] Euclidean Algorithm
+- [ ] Prime Checking
+- [ ] Sieve of Eratosthenes
+- [ ] Prime Factorization
+- [ ] Modular Exponentiation
+- [ ] Combinatorics
+- [ ] Number Theory basics
+
+==================================================
+PHASE 23 — PROBLEM-SOLVING PATTERN MASTER LIST
+==================================================
+
+Create a FINAL checklist containing every major pattern I must recognize:
+
+- [ ] Brute Force
+- [ ] Hashing
+- [ ] Frequency Counting
+- [ ] Two Pointers
+- [ ] Fast/Slow Pointers
+- [ ] Sliding Window
+- [ ] Prefix Sum
+- [ ] Prefix XOR
+- [ ] Difference Array
+- [ ] Kadane
+- [ ] Sorting + Scanning
+- [ ] Sorting + Two Pointers
+- [ ] Binary Search
+- [ ] Binary Search on Answer
+- [ ] Cyclic Sort
+- [ ] Dutch National Flag
+- [ ] Monotonic Stack
+- [ ] Monotonic Queue
+- [ ] Fast/Slow Linked List
+- [ ] Dummy Node
+- [ ] Recursion
+- [ ] Backtracking
+- [ ] Divide and Conquer
+- [ ] BFS
+- [ ] DFS
+- [ ] Multi-source BFS
+- [ ] Topological Sort
+- [ ] Shortest Path
+- [ ] Dijkstra
+- [ ] Union Find
+- [ ] MST
+- [ ] Greedy
+- [ ] Heap + Greedy
+- [ ] Intervals
+- [ ] Sweep Line
+- [ ] Trie
+- [ ] Bit Manipulation
+- [ ] Dynamic Programming
+- [ ] Tree DP
+- [ ] DAG DP
+- [ ] Bitmask DP
+- [ ] Digit DP
+- [ ] Segment Tree
+- [ ] Fenwick Tree
+- [ ] Coordinate Compression
+- [ ] Advanced Graph Algorithms
+- [ ] Advanced String Algorithms
+
+==================================================
+PHASE 24 — DSA PROBLEM PRACTICE
+==================================================
+
+Create a problem-solving progression, NOT explanations.
+
+For every major data structure/pattern use:
+
+Stage 1:
+- [ ] Learn concept
+
+Stage 2:
+- [ ] Solve basic implementation problems
+
+Stage 3:
+- [ ] Solve easy problems
+
+Stage 4:
+- [ ] Solve easy-medium problems
+
+Stage 5:
+- [ ] Solve medium problems
+
+Stage 6:
+- [ ] Solve medium-hard problems
+
+Stage 7:
+- [ ] Solve hard problems
+
+Stage 8:
+- [ ] Solve unseen problems
+
+Stage 9:
+- [ ] Solve mixed-pattern problems
+
+Stage 10:
+- [ ] Solve timed interview problems
+
+==================================================
+PHASE 25 — BLIND PATTERN RECOGNITION
+==================================================
+
+After learning all patterns:
+
+- [ ] Solve problems without knowing the topic
+- [ ] Identify the likely pattern
+- [ ] Identify constraints
+- [ ] Estimate expected complexity
+- [ ] Think brute force
+- [ ] Find bottleneck
+- [ ] Select optimized pattern
+- [ ] Solve
+- [ ] Explain solution
+- [ ] Analyze complexity
+
+==================================================
+PHASE 26 — INTERVIEW DSA PREPARATION
+==================================================
+
+Create the preparation sequence:
+
+- [ ] Easy problems
+- [ ] Medium problems
+- [ ] Hard problems
+- [ ] Mixed pattern problems
+- [ ] Timed problems
+- [ ] Previous interview questions
+- [ ] Company-tagged problems
+- [ ] Mock interviews
+- [ ] Whiteboard/coding interview practice
+- [ ] Explain solution verbally
+- [ ] Complexity explanation
+- [ ] Edge-case handling
+- [ ] Debugging under pressure
+
+==================================================
+PHASE 27 — PRODUCT COMPANY READINESS
+==================================================
+
+Create a checklist for:
+
+- [ ] Startup interviews
+- [ ] Service-based company interviews
+- [ ] Product-based company interviews
+- [ ] Strong product companies
+- [ ] FAANG-style interviews
+
+Include preparation categories:
+
+- [ ] Arrays
+- [ ] Strings
+- [ ] Hashing
+- [ ] Linked Lists
+- [ ] Stack
+- [ ] Queue
+- [ ] Binary Search
+- [ ] Trees
+- [ ] BST
+- [ ] Heap
+- [ ] Greedy
+- [ ] Graphs
+- [ ] Trie
+- [ ] Backtracking
+- [ ] Dynamic Programming
+- [ ] Bit Manipulation
+- [ ] Advanced DSA
+
+==================================================
+PHASE 28 — REVISION
+==================================================
+
+Create a revision checklist:
+
+- [ ] First revision
+- [ ] 1-day revision
+- [ ] 3-day revision
+- [ ] 7-day revision
+- [ ] 14-day revision
+- [ ] 30-day revision
+- [ ] 60-day revision
+
+Track:
+
+- [ ] Concept remembered
+- [ ] Template remembered
+- [ ] Pattern recognized
+- [ ] Problem solved without help
+- [ ] Unseen problem solved
+- [ ] Timed problem solved
+
+==================================================
+PHASE 29 — FINAL DSA MASTERY CHECKLIST
+==================================================
+
+Create one final checklist containing ALL topics from the roadmap.
+
+Organize it as:
+
+LEVEL 1 — Java Ready
+LEVEL 2 — DSA Foundation
+LEVEL 3 — Core DSA
+LEVEL 4 — Core Patterns
+LEVEL 5 — Advanced DSA
+LEVEL 6 — Pattern Recognition
+LEVEL 7 — Interview Ready
+LEVEL 8 — Product Company Ready
+
+==================================================
+IMPORTANT RULES
+==================================================
+
+1. THIS DOCUMENT MUST BE A ROADMAP ONLY.
+
+2. Do NOT explain any topic.
+
+3. Do NOT write tutorials.
+
+4. Do NOT write code.
+
+5. Do NOT give links.
+
+6. Do NOT provide solutions.
+
+7. Do NOT explain individual problems.
+
+8. Do NOT create huge theory sections.
+
+9. Only list what I must learn and the correct order.
+
+10. Make dependencies logical.
+
+11. Do not introduce DP before the required foundations.
+
+12. Do not introduce advanced graph algorithms before graph fundamentals.
+
+13. Do not introduce Segment Tree/Fenwick Tree too early.
+
+14. Separate MUST LEARN from ADVANCED/OPTIONAL where appropriate.
+
+15. Include ALL important patterns needed for serious DSA preparation.
+
+16. Include Java prerequisites before DSA.
+
+17. Include problem-solving patterns, not only data structures.
+
+18. Include interview preparation after the learning roadmap.
+
+19. The roadmap should be usable as a long-term checklist.
+
+20. The final file must be named:
+
+DSA_MASTER_ROADMAP.md
+
+At the very top include:
+
+# DSA MASTER ROADMAP
+
+Goal:
+Master Data Structures, Algorithms, Problem-Solving Patterns, and become interview-ready for strong software engineering/product-company roles.
+
+Then provide the complete roadmap in exact learning order.
+
+DO NOT EXPLAIN ANYTHING.
+
+ONLY CREATE THE STEP-BY-STEP ROADMAP.

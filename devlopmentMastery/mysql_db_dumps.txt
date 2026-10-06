@@ -1,0 +1,70 @@
+Yes. Let me break down exactly what each option means.
+
+What are these options?
+mysqldump -u root -p \
+  --routines \
+  --triggers \
+  --events \
+  --databases karyakartadb \
+  > backup.sql
+Option	Meaning
+--routines	Includes stored procedures and functions
+--triggers	Includes triggers defined on tables
+--events	Includes MySQL scheduled events
+--databases	Tells mysqldump which database(s) to dump and includes CREATE DATABASE / USE statements
+If you want ALL databases
+
+Use:
+
+mysqldump -u root -p \
+  --all-databases \
+  --routines \
+  --triggers \
+  --events \
+  --single-transaction \
+  > all_databases.sql
+
+This will dump every database accessible to that MySQL user.
+
+For example:
+
+all_databases.sql
+    ├── karyakartadb
+    ├── ranneeti
+    ├── test_db
+    ├── mysql
+    ├── sys
+    └── ...
+
+You don't need --databases when using --all-databases.
+
+If you want ALL databases into a particular folder
+mkdir -p ~/mysql_backups
+
+mysqldump -u root -p \
+  --all-databases \
+  --routines \
+  --triggers \
+  --events \
+  --single-transaction \
+  > ~/mysql_backups/all_databases.sql
+One thing to know
+
+--routines, --triggers, and --events are not the table data itself.
+
+Your normal dump already contains:
+
+Database
+ ├── Tables
+ │    ├── Structure
+ │    ├── Data
+ │    ├── Indexes
+ │    └── Foreign Keys
+ ├── Triggers       ← --triggers
+ ├── Procedures     ← --routines
+ ├── Functions      ← --routines
+ └── Scheduled Events ← --events
+
+So if your goal is "I want a complete backup of everything", I'd use:
+
+mysqldump -u root -p --all-databases --routines --triggers --events --single-transaction > all_databases.sql
