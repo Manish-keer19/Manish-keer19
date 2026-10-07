@@ -1,0 +1,903 @@
+# GENERATE: COMPLETE DSA MASTER QUESTION BANK
+
+Create a Markdown file named:
+
+`DSA_MASTER_QUESTION_BANK.md`
+
+Use my existing DSA roadmap only as a reference for the overall learning order:
+
+`DSA_MASTER_ROADMAP.md`
+
+GitHub:
+https://github.com/Manish-keer19/Manish-keer19/blob/main/dsa_master/DSA_MASTER_ROADMAP.md
+
+## GOAL
+
+Create a **complete DSA problem/question bank** that I can use to master:
+
+* Every important Data Structure
+* Every important Algorithm
+* Every important DSA Pattern
+* Easy → Medium → Hard progression
+* Interview-level problem solving
+* Pattern recognition
+* Unseen problem solving
+
+This is a **QUESTION BANK ONLY**.
+
+Do NOT create detailed explanations, tutorials, solutions, or theory.
+
+The purpose is:
+
+> "What questions do I need to solve to completely master this data structure/pattern?"
+
+---
+
+# RESEARCH REQUIREMENT
+
+Before generating the list, research current and highly respected DSA problem sources.
+
+Use multiple sources, including where appropriate:
+
+* LeetCode
+* NeetCode
+* GeeksforGeeks
+* Codeforces
+* CSES
+* HackerRank
+* InterviewBit
+* CodeChef
+* AtCoder
+* Well-known GitHub DSA repositories
+* Current interview preparation resources
+
+Compare them and select the **best representative questions**.
+
+Do NOT simply copy one website's problem list.
+
+Remove repetitive questions that teach exactly the same concept.
+
+Prefer:
+
+> Maximum concept coverage + minimum unnecessary repetition.
+
+---
+
+# IMPORTANT
+
+The output should contain **QUESTIONS ONLY**.
+
+For every question, provide only:
+
+```text
+Problem Name
+Platform
+Problem Number / ID
+Difficulty
+Link
+```
+
+Optional:
+
+```text
+Pattern
+Sub-pattern
+```
+
+Do NOT provide:
+
+* Solutions
+* Java code
+* Detailed explanations
+* Long descriptions
+* Hints
+* Answers
+* Editorials
+
+---
+
+# DIFFICULTY
+
+Every section must be organized:
+
+### 🟢 Easy
+
+### 🟡 Medium
+
+### 🔴 Hard
+
+Do not force Hard problems into topics where they are unnecessary.
+
+Use enough problems to genuinely master the topic.
+
+Avoid artificially increasing the number of questions.
+
+---
+
+# MASTER ORGANIZATION
+
+Organize the entire question bank in this hierarchy:
+
+```text
+DATA STRUCTURE / ALGORITHM
+    ↓
+PATTERN
+    ↓
+SUB-PATTERN
+    ↓
+EASY
+    ↓
+MEDIUM
+    ↓
+HARD
+```
+
+---
+
+# 1. ARRAYS
+
+Cover every important array pattern:
+
+* Basic Traversal
+* In-place Operations
+* Searching
+* Sorting
+* Two Pointers
+* Fast/Slow Pointers
+* Sliding Window
+* Prefix Sum
+* Suffix Sum
+* Difference Array
+* Kadane's Algorithm
+* Hashing + Array
+* Binary Search + Array
+* Greedy + Array
+* Monotonic Stack + Array
+* Heap + Array
+* Intervals
+* Matrix
+* Rotation
+* Partitioning
+* Subarrays
+* Subsequences
+* Range Queries
+* 2D Arrays
+* Advanced Array Problems
+
+---
+
+# 2. STRINGS
+
+Cover:
+
+* Character Traversal
+* Frequency Counting
+* Hashing
+* Anagram
+* Palindrome
+* Two Pointers
+* Sliding Window
+* Substring
+* Subsequence
+* String Parsing
+* String Manipulation
+* Stack + String
+* Trie + String
+* Prefix/Suffix
+* Pattern Matching
+* KMP
+* Z Algorithm
+* Rabin-Karp
+* Rolling Hash
+* Manacher's Algorithm
+* Advanced String Problems
+
+---
+
+# 3. HASHING
+
+Cover:
+
+* HashMap
+* HashSet
+* Frequency Map
+* Counting
+* Duplicate Detection
+* Complement Lookup
+* Grouping
+* Prefix Sum + HashMap
+* Prefix XOR + HashMap
+* Array + Hashing
+* String + Hashing
+* Subarray Hashing
+* Advanced Hashing
+
+---
+
+# 4. LINKED LIST
+
+Cover:
+
+* Singly Linked List
+* Doubly Linked List
+* Circular Linked List
+* Traversal
+* Insertion
+* Deletion
+* Reverse
+* Fast/Slow Pointer
+* Middle Node
+* Nth Node
+* Cycle Detection
+* Cycle Removal
+* Intersection
+* Merge
+* Sorting
+* Palindrome
+* Reordering
+* Rotation
+* Random Pointer
+* Advanced Linked List
+
+---
+
+# 5. STACK
+
+Cover:
+
+* Stack Basics
+* Stack Implementation
+* Parentheses
+* Expression Problems
+* Infix
+* Prefix
+* Postfix
+* Expression Evaluation
+* Monotonic Stack
+* Next Greater Element
+* Next Smaller Element
+* Previous Greater Element
+* Previous Smaller Element
+* Histogram
+* Stack + Array
+* Stack + String
+* Advanced Stack Problems
+
+---
+
+# 6. QUEUE / DEQUE
+
+Cover:
+
+* Queue
+* Circular Queue
+* Deque
+* Queue using Stack
+* Stack using Queue
+* BFS
+* Monotonic Queue
+* Sliding Window Maximum
+* Queue + Graph
+* Queue + Grid
+* Advanced Queue Problems
+
+---
+
+# 7. HEAP / PRIORITY QUEUE
+
+Cover:
+
+* Min Heap
+* Max Heap
+* Heapify
+* Build Heap
+* Kth Largest
+* Kth Smallest
+* Top K
+* Frequency + Heap
+* Two Heaps
+* Median
+* Merge K Sorted
+* Heap + Greedy
+* Heap + Graph
+* Scheduling
+* Advanced Heap Problems
+
+---
+
+# 8. BINARY TREE
+
+Cover:
+
+* Tree Traversal
+* Preorder
+* Inorder
+* Postorder
+* Level Order
+* Recursive DFS
+* Iterative DFS
+* BFS
+* Height
+* Depth
+* Diameter
+* Balanced Tree
+* Path Problems
+* Root-to-Leaf
+* Lowest Common Ancestor
+* Tree Views
+* Vertical Traversal
+* Boundary Traversal
+* Tree Construction
+* Serialization
+* Deserialization
+* Tree + DFS
+* Tree + BFS
+* Advanced Tree Problems
+
+---
+
+# 9. BINARY SEARCH TREE
+
+Cover:
+
+* Search
+* Insert
+* Delete
+* Validation
+* Min/Max
+* Predecessor
+* Successor
+* Kth Smallest
+* Kth Largest
+* LCA
+* Range Queries
+* Sorted Data
+* BST + DFS
+* Advanced BST Problems
+
+---
+
+# 10. TRIE
+
+Cover:
+
+* Trie Implementation
+* Insert
+* Search
+* Prefix Search
+* StartsWith
+* Word Dictionary
+* Autocomplete
+* Word Search
+* Trie + DFS
+* Trie + Backtracking
+* Trie + Hashing
+* Bitwise Trie
+* XOR Trie
+* Advanced Trie Problems
+
+---
+
+# 11. GRAPHS
+
+Cover:
+
+* Graph Representation
+* Adjacency List
+* Adjacency Matrix
+* Edge List
+* BFS
+* DFS
+* Connected Components
+* Cycle Detection
+* Directed Graph
+* Undirected Graph
+* Weighted Graph
+* Unweighted Graph
+* Grid as Graph
+* Multi-source BFS
+* Bipartite Graph
+* Topological Sort
+* Kahn's Algorithm
+* DFS Topological Sort
+* Course Scheduling
+* Dependency Graphs
+
+---
+
+# 12. SHORTEST PATH
+
+Cover:
+
+* BFS Shortest Path
+* Multi-source BFS
+* 0-1 BFS
+* Dijkstra
+* Bellman-Ford
+* Floyd-Warshall
+* Shortest Path in DAG
+* Weighted Graph
+* Negative Edges
+* Grid Shortest Path
+* Advanced Shortest Path
+
+---
+
+# 13. MINIMUM SPANNING TREE
+
+Cover:
+
+* MST
+* Kruskal
+* Prim
+* MST + DSU
+* Cycle Detection
+* Weighted Graph
+* Advanced MST
+
+---
+
+# 14. DISJOINT SET UNION
+
+Cover:
+
+* DSU Basics
+* Find
+* Union
+* Path Compression
+* Union by Rank
+* Union by Size
+* Connected Components
+* Dynamic Connectivity
+* DSU + Graph
+* DSU + MST
+* Advanced DSU
+
+---
+
+# 15. RECURSION
+
+Cover:
+
+* Basic Recursion
+* Array Recursion
+* String Recursion
+* Multiple Recursion
+* Tree Recursion
+* Divide and Conquer
+* Recursive Search
+* Recursive Sorting
+* Recursion + Backtracking
+* Advanced Recursion
+
+---
+
+# 16. BACKTRACKING
+
+Cover:
+
+* Subsets
+* Subsequences
+* Permutations
+* Combinations
+* Combination Sum
+* Partitioning
+* Palindrome Partitioning
+* N-Queens
+* Sudoku
+* Word Search
+* Grid Backtracking
+* Constraint Problems
+* Advanced Backtracking
+
+---
+
+# 17. GREEDY
+
+Cover:
+
+* Basic Greedy
+* Sorting + Greedy
+* Interval Greedy
+* Activity Selection
+* Scheduling
+* Jump Problems
+* Gas Station
+* Partitioning
+* Fractional Knapsack
+* Greedy + Heap
+* Greedy + Graph
+* Advanced Greedy
+
+---
+
+# 18. INTERVALS
+
+Cover:
+
+* Merge Intervals
+* Insert Interval
+* Overlapping Intervals
+* Non-overlapping Intervals
+* Meeting Rooms
+* Scheduling
+* Interval Sorting
+* Sweep Line
+* Difference Array
+* Interval + Heap
+* Advanced Intervals
+
+---
+
+# 19. BINARY SEARCH
+
+Cover:
+
+* Basic Binary Search
+* First Occurrence
+* Last Occurrence
+* Lower Bound
+* Upper Bound
+* Search Insert
+* Search Range
+* Rotated Array
+* Rotated Array with Duplicates
+* Peak
+* Bitonic
+* Matrix Binary Search
+* Binary Search on Answer
+* Minimum Feasible Value
+* Maximum Feasible Value
+* Greedy + Binary Search
+* Advanced Binary Search
+
+---
+
+# 20. SORTING
+
+Cover:
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+* Quick Sort
+* Heap Sort
+* Counting Sort
+* Radix Sort
+* Bucket Sort
+* Sorting + Two Pointers
+* Sorting + Greedy
+* Sorting + Hashing
+* Sorting + Binary Search
+* Custom Comparator
+* Advanced Sorting Problems
+
+---
+
+# 21. PREFIX SUM
+
+Cover:
+
+* Basic Prefix Sum
+* Range Sum
+* Prefix Frequency
+* Prefix XOR
+* Prefix Sum + HashMap
+* Prefix Sum + Counting
+* Prefix Sum + Subarray
+* Difference Array
+* 2D Prefix Sum
+* Prefix Sum + Matrix
+* Advanced Prefix Problems
+
+---
+
+# 22. SLIDING WINDOW
+
+Cover:
+
+* Fixed Window
+* Variable Window
+* Longest Window
+* Shortest Window
+* At Most K
+* Exactly K
+* Distinct Elements
+* Frequency Map Window
+* String Window
+* Array Window
+* Monotonic Queue Window
+* Advanced Sliding Window
+
+---
+
+# 23. TWO POINTERS
+
+Cover:
+
+* Opposite Direction
+* Same Direction
+* Fast/Slow
+* Sorted Array
+* Pair Sum
+* Triplet
+* Palindrome
+* Partitioning
+* In-place Modification
+* Array + Two Pointers
+* String + Two Pointers
+* Advanced Two Pointers
+
+---
+
+# 24. DYNAMIC PROGRAMMING
+
+Cover all major DP patterns:
+
+* 1D DP
+* 2D DP
+* Grid DP
+* Fibonacci Pattern
+* Climbing Stairs
+* House Robber
+* Kadane / Maximum Subarray
+* Knapsack
+* 0/1 Knapsack
+* Unbounded Knapsack
+* Subset Sum
+* Partition DP
+* Coin Change
+* Target Sum
+* LCS
+* LIS
+* Edit Distance
+* String DP
+* Palindrome DP
+* Interval DP
+* Matrix Chain Multiplication
+* Burst Balloons
+* Stock DP
+* State Machine DP
+* Tree DP
+* DAG DP
+* Bitmask DP
+* Digit DP
+* DP + Binary Search
+* DP + Hashing
+* Advanced DP
+
+---
+
+# 25. BIT MANIPULATION
+
+Cover:
+
+* Binary Representation
+* AND
+* OR
+* XOR
+* NOT
+* Left Shift
+* Right Shift
+* Set Bit
+* Clear Bit
+* Toggle Bit
+* Check Bit
+* Count Bits
+* Power of Two
+* XOR Tricks
+* Bitmask
+* Subsets with Bitmask
+* Bitwise Greedy
+* Advanced Bit Manipulation
+
+---
+
+# 26. MATHEMATICS / NUMBER THEORY
+
+Cover:
+
+* GCD
+* LCM
+* Euclidean Algorithm
+* Prime Checking
+* Sieve
+* Prime Factorization
+* Divisors
+* Modular Arithmetic
+* Modular Exponentiation
+* Fast Exponentiation
+* Combinations
+* Permutations
+* Factorials
+* Mathematical Observations
+* Number Theory Problems
+* Advanced Mathematics
+
+---
+
+# 27. DIVIDE AND CONQUER
+
+Cover:
+
+* Binary Search
+* Merge Sort
+* Quick Sort
+* Maximum Subarray
+* Inversion Count
+* Fast Power
+* Divide-and-Conquer Recursion
+* Advanced Divide and Conquer
+
+---
+
+# 28. FENWICK TREE / BIT
+
+Cover:
+
+* Fenwick Tree Basics
+* Point Update
+* Prefix Query
+* Range Query
+* Range Update
+* Coordinate Compression + Fenwick
+* Counting Inversions
+* Advanced Fenwick Problems
+
+---
+
+# 29. SEGMENT TREE
+
+Cover:
+
+* Segment Tree Basics
+* Range Sum
+* Range Minimum
+* Range Maximum
+* Point Update
+* Range Update
+* Lazy Propagation
+* Advanced Segment Tree
+
+---
+
+# 30. MONOTONIC DATA STRUCTURES
+
+Cover:
+
+* Monotonic Stack
+* Increasing Stack
+* Decreasing Stack
+* Monotonic Queue
+* Sliding Window Maximum
+* Next Greater
+* Next Smaller
+* Histogram
+* Contribution Technique
+* Advanced Monotonic Problems
+
+---
+
+# 31. ADVANCED GRAPH ALGORITHMS
+
+Cover:
+
+* Bridges
+* Articulation Points
+* Strongly Connected Components
+* Kosaraju
+* Tarjan
+* Eulerian Path
+* Eulerian Circuit
+* Bipartite Matching
+* Network Flow
+* Advanced Graph Problems
+
+Only include advanced problems that are useful for strong DSA/interview preparation.
+
+---
+
+# 32. ADVANCED STRING ALGORITHMS
+
+Cover:
+
+* KMP
+* Z Algorithm
+* Rabin-Karp
+* Rolling Hash
+* Manacher
+* Trie Matching
+* Advanced String Matching
+
+---
+
+# 33. MIXED PATTERN PRACTICE
+
+Create mixed questions where the pattern is NOT revealed.
+
+Include:
+
+* Easy Mixed
+* Medium Mixed
+* Hard Mixed
+
+The purpose is to test:
+
+> Can I identify the correct data structure and pattern myself?
+
+---
+
+# 34. FINAL MUST-SOLVE LIST
+
+Create:
+
+## TOP 150 DSA PROBLEMS
+
+Select the most important 150 problems from the entire bank.
+
+These should cover all major patterns and data structures with minimal repetition.
+
+---
+
+# 35. FINAL MASTERY SET
+
+Create:
+
+## EASY MASTER SET
+
+Enough problems to establish fundamentals.
+
+## MEDIUM MASTER SET
+
+The main interview preparation set.
+
+## HARD MASTER SET
+
+Selected high-value advanced problems.
+
+---
+
+# QUESTION FORMAT
+
+Use only this format:
+
+```markdown
+### 001. Two Sum
+
+- Platform: LeetCode
+- ID: 1
+- Difficulty: Easy
+- Pattern: Hashing
+- Link: https://leetcode.com/problems/two-sum/
+```
+
+Nothing more.
+
+---
+
+# FINAL RULES
+
+1. Research before generating.
+2. Verify every problem.
+3. Verify every link.
+4. Do not invent problem IDs.
+5. Do not invent URLs.
+6. Avoid duplicate problems.
+7. Do not give solutions.
+8. Do not give long explanations.
+9. Do not turn this into a tutorial.
+10. Focus only on the question list.
+11. Cover every major data structure.
+12. Cover every major algorithm.
+13. Cover every major DSA pattern.
+14. Organize Easy → Medium → Hard.
+15. Include both common and advanced patterns.
+16. Prioritize interview-relevant problems.
+17. Include enough questions to achieve mastery, but avoid meaningless repetition.
+18. Use multiple platforms where a platform has a particularly strong problem.
+19. Make the final Markdown file clean, searchable, and checklist-friendly.
+20. The final objective is:
+
+> **If I complete this question bank properly, I should have practiced essentially every important DSA pattern and data structure needed for strong software-engineering interviews.**
+Before finalizing, perform a DSA coverage audit. Compare the generated question bank against the major data structures, algorithms, patterns, and sub-patterns used in current coding interviews. If any important pattern or sub-pattern is missing, add it. Do not stop merely because the predefined sections are complete.
